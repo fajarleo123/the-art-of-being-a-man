@@ -2,7 +2,8 @@
 
 > **Judul:** *Pria yang Berhasil Menguasai Dirinya Sendiri*
 > **Subjudul:** *Pelajaran Pengendalian Diri dari Marcus Aurelius*
-> **Durasi target:** 10 menit (±1.300 kata narasi, tempo ±130 kata/menit)
+> **Durasi target:** 5 menit (±650 kata narasi, tempo ±130 kata/menit)
+> **Naskah narasi lengkap:** `voice-over/001-marcus-aurelius/script.md`
 > **Status:** ✅ Kerangka disetujui (draf 2)
 > **Dasar fakta:** lihat `research.md` di folder ini
 
@@ -17,6 +18,7 @@
 | Hook | Dimulai dari pergulatan pria modern: ego, amarah, ketakutan, tekanan hidup |
 | Fokus | **Pelajaran hidup**, bukan sekadar biografi. Sejarah dipakai sebagai cermin. |
 | Commodus | Disebut singkat di penutup sebagai ironi sejarah |
+| Durasi | **5 menit** (dipangkas dari 10 menit) |
 | Struktur | Empat musuh di dalam diri: Ego → Tekanan → Ketakutan → Amarah |
 | Teks thumbnail | **"MUSUH TERBESARMU"** |
 
@@ -68,15 +70,19 @@ Merasa "ini aku" → Penasaran → Tertampar → Sesak → Rapuh → Tegang → 
 
 | # | Bab | Waktu | Durasi | ±Kata |
 |---|---|---|---|---|
-| 0 | Hook: Perang yang tak tercatat | 0:00–1:05 | 65 dtk | 140 |
-| 1 | Kartu judul | 1:05–1:20 | 15 dtk | 30 |
-| 2 | Benteng di dalam diri | 1:20–2:15 | 55 dtk | 120 |
-| 3 | Musuh pertama: **Ego** | 2:15–3:25 | 70 dtk | 150 |
-| 4 | Musuh kedua: **Tekanan** | 3:25–4:40 | 75 dtk | 165 |
-| 5 | Musuh ketiga: **Ketakutan** | 4:40–5:50 | 70 dtk | 150 |
-| 6 | Musuh keempat: **Amarah** ⭐ | 5:50–8:15 | 145 dtk | 315 |
-| 7 | Penutup: Matahari terbenam | 8:15–10:00 | 105 dtk | 225 |
-| | **Total** | | **10:00** | **±1.295** |
+| 0 | Hook: Perang yang tak tercatat | 0:00–0:35 | 35 dtk | 75 |
+| 1 | Kartu judul | 0:35–0:45 | 10 dtk | 15 |
+| 2 | Benteng di dalam diri | 0:45–1:10 | 25 dtk | 55 |
+| 3 | Musuh pertama: **Ego** | 1:10–1:45 | 35 dtk | 75 |
+| 4 | Musuh kedua: **Tekanan** | 1:45–2:25 | 40 dtk | 85 |
+| 5 | Musuh ketiga: **Ketakutan** | 2:25–3:00 | 35 dtk | 75 |
+| 6 | Musuh keempat: **Amarah** ⭐ | 3:00–4:15 | 75 dtk | 165 |
+| 7 | Penutup: Matahari terbenam | 4:15–5:00 | 45 dtk | 100 |
+| | **Total** | | **5:00** | **±645** |
+
+> **Dipangkas untuk versi 5 menit:** detail masa kecil (Verissimus, Hadrian),
+> montase krisis dipersingkat, wafatnya Faustina dihapus. Kalimat narasi di
+> bawah adalah draf awal; versi final ada di naskah narasi.
 
 ---
 
@@ -84,7 +90,7 @@ Merasa "ini aku" → Penasaran → Tertampar → Sesak → Rapuh → Tegang → 
 
 > Format: **🎙️ Narasi**, **🎬 Visual**, **🎵 Audio**. Aturan visual mengikuti `master-style/`.
 
-### BAB 0 — HOOK: PERANG YANG TAK TERCATAT (0:00–1:05)
+### BAB 0 — HOOK: PERANG YANG TAK TERCATAT (0:00–0:35)
 
 **Tujuan:** Penonton pria langsung merasa *"ini tentang aku"* dalam 15 detik
 pertama, lalu dibawa ke Marcus sebagai jawaban.
@@ -125,7 +131,7 @@ pertama, lalu dibawa ke Marcus sebagai jawaban.
 
 ---
 
-### BAB 1 — KARTU JUDUL (1:05–1:20)
+### BAB 1 — KARTU JUDUL (0:35–0:45)
 
 🎙️ **Narasi:**
 > Namanya Marcus Aurelius. Kaisar Roma. Dan ini kisah tentang kemenangan
@@ -140,7 +146,7 @@ antik) dan subjudul **"Pelajaran Pengendalian Diri dari Marcus Aurelius"**
 
 ---
 
-### BAB 2 — BENTENG DI DALAM DIRI (1:20–2:15)
+### BAB 2 — BENTENG DI DALAM DIRI (0:45–1:10)
 
 **Inti:** Memperkenalkan Marcus secukupnya, plus satu prinsip dasar yang
 menjadi kunci seluruh video.
@@ -165,7 +171,7 @@ berdiri tenang di tengah badai.
 
 ---
 
-### BAB 3 — MUSUH PERTAMA: EGO (2:15–3:25)
+### BAB 3 — MUSUH PERTAMA: EGO (1:10–1:45)
 
 | Lapisan | Isi |
 |---|---|
@@ -185,7 +191,7 @@ Buku 1 dengan nama-nama yang ditulis dengan tinta.
 
 ---
 
-### BAB 4 — MUSUH KEDUA: TEKANAN (3:25–4:40)
+### BAB 4 — MUSUH KEDUA: TEKANAN (1:45–2:25)
 
 | Lapisan | Isi |
 |---|---|
@@ -207,7 +213,7 @@ sempit, napasnya mengepul di udara dingin.
 
 ---
 
-### BAB 5 — MUSUH KETIGA: KETAKUTAN (4:40–5:50)
+### BAB 5 — MUSUH KETIGA: KETAKUTAN (2:25–3:00)
 
 | Lapisan | Isi |
 |---|---|
@@ -228,7 +234,7 @@ berasal dari benda kecil di depan lilin (ketakutan lebih besar dari kenyataan).
 
 ---
 
-### BAB 6 — MUSUH KEEMPAT: AMARAH (5:50–8:15) ⭐ PUNCAK
+### BAB 6 — MUSUH KEEMPAT: AMARAH (3:00–4:15) ⭐ PUNCAK
 
 | Lapisan | Isi |
 |---|---|
@@ -264,7 +270,7 @@ terbakar; hanya derak api.
 
 ---
 
-### BAB 7 — PENUTUP: MATAHARI TERBENAM (8:15–10:00)
+### BAB 7 — PENUTUP: MATAHARI TERBENAM (4:15–5:00)
 
 **Poin:**
 1. **180 M:** Marcus wafat di front utara, di tengah perang yang belum selesai.
@@ -322,6 +328,6 @@ di tebing dari hook, kini **badai telah reda**. Buku ditutup → logo channel.
 
 ## 8. Langkah Berikutnya (setelah disetujui)
 
-1. Menulis **naskah narasi lengkap** (±1.300 kata) di `voice-over/001-marcus-aurelius/script.md`
+1. ✅ **Naskah narasi lengkap** (±650 kata) di `voice-over/001-marcus-aurelius/script.md`
 2. Membuat **lembar karakter**: Marcus (muda & tua), Avidius Cassius, Faustina, dan "Pria Tanpa Zaman" (siluet hook)
-3. Membuat **storyboard** per adegan (±70–80 adegan × ±8 detik)
+3. Membuat **storyboard** per adegan (±35–40 adegan × ±8 detik)
