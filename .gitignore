@@ -1,0 +1,13 @@
+# Dependensi & hasil build (untuk tahap Remotion nanti)
+node_modules/
+out/
+build/
+dist/
+
+# File render video besar
+*.mp4
+*.mov
+
+# File sistem
+.DS_Store
+Thumbs.db
