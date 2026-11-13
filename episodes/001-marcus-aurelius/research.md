@@ -132,6 +132,7 @@ Inilah **inti emosional** episode.
 | # | Ref. | Kutipan | Pilar |
 |---|---|---|---|
 | 1 | 2.1 | "Saat pagi, katakan pada dirimu: hari ini aku akan bertemu orang yang suka ikut campur, tak tahu terima kasih, sombong, penipu, iri hati…" — lalu: aku tidak bisa dirugikan oleh mereka, dan tidak boleh marah kepada saudaraku. | Emosi |
+| 1b | 2.11 | "Engkau bisa meninggalkan hidup ini saat ini juga. Biarlah itu menentukan apa yang engkau lakukan, katakan, dan pikirkan." | Ketakutan |
 | 2 | 5.1 | "Saat fajar, ketika engkau berat untuk bangun, katakan pada dirimu: aku bangun untuk melakukan pekerjaan seorang manusia." | Disiplin |
 | 3 | 6.30 | "Berhati-hatilah agar engkau tidak menjadi 'Caesar', jangan sampai terwarnai olehnya." | Kedewasaan |
 | 4 | 8.47 | "Jika engkau terganggu oleh sesuatu di luar dirimu, yang menyakitimu bukan hal itu, melainkan penilaianmu atasnya — dan itu bisa engkau hapus kapan saja." | Emosi |

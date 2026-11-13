@@ -1,277 +1,326 @@
 # Kerangka Naskah — Episode 001: Marcus Aurelius
 
-> **Judul kerja:** *The Power of Self-Control*
+> **Judul:** *Pria yang Berhasil Menguasai Dirinya Sendiri*
+> **Subjudul:** *Pelajaran Pengendalian Diri dari Marcus Aurelius*
 > **Durasi target:** 10 menit (±1.300 kata narasi, tempo ±130 kata/menit)
-> **Status:** 🟡 Kerangka (draf 1) — menunggu persetujuan
+> **Status:** 🟡 Kerangka (draf 2) — menunggu persetujuan
 > **Dasar fakta:** lihat `research.md` di folder ini
 
 ---
 
-## 1. Konsep
+## 1. Keputusan yang Sudah Disetujui
+
+| Item | Keputusan |
+|---|---|
+| Bahasa | Indonesia |
+| Gaya narasi | Dewasa, filosofis, emosional, sinematik |
+| Hook | Dimulai dari pergulatan pria modern: ego, amarah, ketakutan, tekanan hidup |
+| Fokus | **Pelajaran hidup**, bukan sekadar biografi. Sejarah dipakai sebagai cermin. |
+| Commodus | Disebut singkat di penutup sebagai ironi sejarah |
+
+---
+
+## 2. Konsep
 
 **Logline**
-> Pria paling berkuasa di dunia dikhianati sahabat terpercayanya. Ia punya
-> seluruh legiun Romawi untuk membalas, tapi ia memilih senjata yang jauh
-> lebih sulit: **mengendalikan dirinya sendiri.**
+> Setiap pria menghadapi perang yang tak pernah tercatat dalam sejarah: perang
+> melawan ego, amarah, ketakutan, dan tekanan di dalam dirinya. Hampir dua ribu
+> tahun lalu, pria paling berkuasa di dunia menghadapi perang yang sama, dan
+> meninggalkan catatan tentang cara memenangkannya.
 
 **Pertanyaan utama episode**
-> Apa yang dilakukan pria sejati ketika ia punya **kekuatan** untuk menghancurkan,
-> dan **alasan** untuk melakukannya?
+> Bagaimana seorang pria tetap menjadi tuan atas dirinya sendiri, ketika
+> dunia di sekitarnya, dan di dalam dadanya, sedang terbakar?
+
+**Struktur:** **Empat musuh di dalam diri.** Setiap bab mengikuti pola yang sama:
+
+```
+Pergulatan pria modern → Kisah nyata Marcus → Prinsip (Meditations) → Penerapan hari ini
+```
+
+Urutan bab disusun naik intensitasnya: **Ego → Tekanan → Ketakutan → Amarah**.
+Bab Amarah menjadi puncak karena memuat kisah pengkhianatan Avidius Cassius.
 
 **Busur emosi penonton**
 
 ```
-Penasaran → Tegang → Berat/sesak → Kagum → Merenung → Termotivasi
-  (Hook)    (Takhta)   (Wabah/perang) (Pengampunan) (Pelajaran) (Penutup)
+Merasa "ini aku" → Penasaran → Tertampar → Sesak → Rapuh → Tegang → Kagum → Tenang & bertekad
+     (Hook)        (Benteng)    (Ego)    (Tekanan) (Takut) (Amarah)        (Penutup)
 ```
 
-**Struktur narasi:** *in medias res*. Video dibuka di tengah krisis tahun 175,
-lalu mundur ke masa kecil, kemudian maju kembali ke krisis itu sebagai puncak cerita.
+---
+
+## 3. Panduan Gaya Narasi
+
+- **Dewasa:** berbicara seperti pria yang sudah melewati banyak hal. Tidak menggurui, tidak memakai bahasa motivator yang berapi-api.
+- **Filosofis:** ajukan pertanyaan, biarkan penonton merenung. Tidak semua harus dijawab.
+- **Emosional:** bahasa yang konkret dan terasa di tubuh ("amarah naik ke tenggorokan"), bukan abstrak.
+- **Sinematik:** kalimat pendek. Banyak jeda `[jeda]`. Satu gambar mental per kalimat.
+- **Sapaan:** narator memakai **"kita"** (berjuang bersama penonton). Kutipan Marcus memakai **"engkau"**.
+- **Hindari:** istilah gaul, kata serapan modern yang berlebihan (mis. *mindset*, *healing*), dan klise motivasi.
+- Fakta berlabel 📜 di `research.md` diawali "menurut catatan kuno…" atau "konon…".
 
 ---
 
-## 2. Peta Waktu
+## 4. Peta Waktu
 
-| # | Babak | Waktu | Durasi | ±Kata |
+| # | Bab | Waktu | Durasi | ±Kata |
 |---|---|---|---|---|
-| 0 | Hook (cold open) | 0:00–0:50 | 50 dtk | 110 |
-| 1 | Pembuka & judul | 0:50–1:15 | 25 dtk | 45 |
-| 2 | Bocah yang paling jujur | 1:15–2:45 | 90 dtk | 195 |
-| 3 | Beban mahkota | 2:45–4:45 | 120 dtk | 260 |
-| 4 | Ujian: pengkhianatan | 4:45–7:00 | 135 dtk | 290 |
-| 5 | Empat pelajaran | 7:00–8:50 | 110 dtk | 240 |
-| 6 | Matahari terbenam (penutup) | 8:50–10:00 | 70 dtk | 150 |
-| | **Total** | | **10:00** | **±1.290** |
+| 0 | Hook: Perang yang tak tercatat | 0:00–1:05 | 65 dtk | 140 |
+| 1 | Kartu judul | 1:05–1:20 | 15 dtk | 30 |
+| 2 | Benteng di dalam diri | 1:20–2:15 | 55 dtk | 120 |
+| 3 | Musuh pertama: **Ego** | 2:15–3:25 | 70 dtk | 150 |
+| 4 | Musuh kedua: **Tekanan** | 3:25–4:40 | 75 dtk | 165 |
+| 5 | Musuh ketiga: **Ketakutan** | 4:40–5:50 | 70 dtk | 150 |
+| 6 | Musuh keempat: **Amarah** ⭐ | 5:50–8:15 | 145 dtk | 315 |
+| 7 | Penutup: Matahari terbenam | 8:15–10:00 | 105 dtk | 225 |
+| | **Total** | | **10:00** | **±1.295** |
 
 ---
 
-## 3. Babak demi Babak
+## 5. Bab demi Bab
 
-> Format: **🎙️ Narasi** (draf kasar), **🎬 Visual** (adegan & kamera), **🎵 Audio**.
-> Aturan visual mengikuti `master-style/`.
+> Format: **🎙️ Narasi**, **🎬 Visual**, **🎵 Audio**. Aturan visual mengikuti `master-style/`.
 
-### BABAK 0 — HOOK (0:00–0:50)
+### BAB 0 — HOOK: PERANG YANG TAK TERCATAT (0:00–1:05)
 
-**Tujuan:** Membuat penonton bertahan dalam 15 detik pertama lewat konflik,
-taruhan besar, dan pertanyaan yang belum terjawab.
+**Tujuan:** Penonton pria langsung merasa *"ini tentang aku"* dalam 15 detik
+pertama, lalu dibawa ke Marcus sebagai jawaban.
 
 🎙️ **Narasi (draf lengkap):**
-> *Tahun 175. Perbatasan utara Kekaisaran Romawi.*
+> Ada perang yang tidak pernah tercatat dalam buku sejarah.
 >
-> Di sebuah tenda perang yang dingin, seorang pria tua menerima kabar
-> terburuk dalam hidupnya.
+> Perang itu terjadi di dalam dada seorang pria.
 >
-> Jenderal terbaiknya, sahabat yang ia percayai memegang separuh timur
-> kekaisaran, telah mengangkat dirinya menjadi kaisar.
+> `[jeda]`
 >
-> Pria tua itu memimpin tentara terkuat di dunia. Ia bisa memburu sang
-> pengkhianat. Ia bisa menghukum keluarganya. Ia bisa membakar siapa pun
-> yang pernah mendukungnya.
+> Ketika egonya terluka, dan ia ingin membuktikan bahwa dirinya benar.
 >
-> Dan ketika semuanya berakhir, mereka membawakan kepala sang pengkhianat ke
-> hadapannya.
+> Ketika amarah naik ke tenggorokan, dan kata-kata yang tak bisa ditarik
+> kembali sudah siap dilepaskan.
 >
-> **Ia menolak melihatnya.**
+> Ketika malam datang, dan ketakutan tentang hari esok tidak membiarkannya tidur.
 >
-> Namanya Marcus Aurelius. Dan ini kisah tentang kekuatan yang jauh lebih
-> sulit daripada menaklukkan dunia: menaklukkan diri sendiri.
+> Ketika beban hidup terus bertambah, dan tak seorang pun tahu betapa beratnya.
+>
+> `[jeda]`
+>
+> Kita mengira musuh terbesar kita ada di luar sana.
+>
+> Hampir dua ribu tahun yang lalu, ada seorang pria yang memiliki segalanya
+> untuk menghancurkan musuh-musuhnya. Ia memimpin pasukan terkuat di dunia.
+> Kata-katanya adalah hukum.
+>
+> Tetapi musuh yang paling ia takuti… adalah dirinya sendiri.
 
 🎬 **Visual:**
-- Salju turun di atas kamp legiun malam hari → *slow push-in* ke satu tenda yang diterangi lilin.
-- Siluet utusan masuk; gulungan surat dibuka (close-up tangan tua, cap lilin merah).
-- Peta kekaisaran bertekstur kertas tua; tinta merah **menyebar** dari Suriah (efek *ink bleed*).
-- Kotak kayu diletakkan di meja → wajah Marcus setengah gelap, ia **memalingkan wajah**. Fade ke hitam.
+- Siluet seorang pria **tanpa penanda zaman** (jubah panjang, wajah tak terlihat) berdiri di tebing saat badai, dengan tekstur watercolor dan tinta.
+- Sisipan simbolis, satu untuk tiap musuh: cermin retak (ego) · kepalan tangan gemetar (amarah) · lilin yang hampir padam di kamar gelap (ketakutan) · pundak memikul batu besar (tekanan).
+- *Match cut:* jubah pria itu tertiup angin dan **berubah menjadi jubah Romawi** berwarna burgundy. Kamera *pull-out* memperlihatkan kamp legiun di tepi Sungai Danube, bersalju.
+- Close-up seorang pria tua menulis di bawah cahaya lilin.
 
-🎵 **Audio:** Angin dan derak api → dentum drum rendah saat pengkhianatan disebut → sunyi total pada kalimat "Ia menolak melihatnya."
+🎵 **Audio:** Angin dan detak jantung pelan → cello rendah → hening sebelum kalimat terakhir.
 
 ---
 
-### BABAK 1 — PEMBUKA & JUDUL (0:50–1:15)
+### BAB 1 — KARTU JUDUL (1:05–1:20)
 
 🎙️ **Narasi:**
-> Ia adalah pria paling berkuasa di muka bumi. Tapi di malam hari, di dalam
-> tendanya, ia menulis nasihat bukan untuk rakyatnya, melainkan untuk dirinya sendiri.
+> Namanya Marcus Aurelius. Kaisar Roma. Dan ini kisah tentang kemenangan
+> yang paling sulit di dunia.
 
-🎬 **Visual:** Transisi khas channel: **halaman buku dibalik**. Kartu judul
-*"The Art of Being a Man — Marcus Aurelius: The Power of Self-Control"* dalam
-huruf Cinzel warna emas antik di atas kertas krem.
+🎬 **Visual:** Transisi khas channel, **halaman buku dibalik**.
+Judul **"Pria yang Berhasil Menguasai Dirinya Sendiri"** (huruf Cinzel, emas
+antik) dan subjudul **"Pelajaran Pengendalian Diri dari Marcus Aurelius"**
+(Cormorant, krem) di atas kertas tua.
 
-🎵 **Audio:** Tema musik channel (cello/piano rendah).
+🎵 **Audio:** Tema musik channel.
 
 ---
 
-### BABAK 2 — BOCAH YANG PALING JUJUR (1:15–2:45)
+### BAB 2 — BENTENG DI DALAM DIRI (1:20–2:15)
 
-**Inti:** Kendali diri Marcus dilatih sejak kecil, bukan bawaan lahir.
+**Inti:** Memperkenalkan Marcus secukupnya, plus satu prinsip dasar yang
+menjadi kunci seluruh video.
 
-**Poin cerita (urut):**
-1. Ayahnya meninggal saat ia berusia ±3 tahun; dibesarkan ibu dan kakeknya.
-2. Kaisar Hadrian menjulukinya **"Verissimus"**, *yang paling jujur*.
-3. Usia 12: memakai jubah filsuf dan tidur di lantai *(menurut catatan kuno)*.
-4. Usia 17: dipilih menjadi calon kaisar. Masa depannya kini tidak lagi milik dirinya.
-5. Gurunya, Rusticus, memberinya ajaran **Epictetus**, seorang mantan budak.
-   → *Ironi:* calon penguasa dunia belajar kebebasan dari seorang budak.
-6. Ajaran inti: **ada hal yang bisa kita kendalikan, dan ada yang tidak.**
+**Poin:**
+1. Ayahnya meninggal saat ia masih balita. Kaisar Hadrian menjulukinya *"Verissimus"*, yang paling jujur.
+2. Ia dipersiapkan menjadi kaisar sejak usia 17 tahun.
+3. Gurunya memberinya ajaran **Epictetus**, seorang **mantan budak**.
+4. Prinsip inti: **ada hal yang bisa kita kendalikan, dan ada yang tidak.**
+   Dunia luar bukan milik kita. Pikiran dan pilihan kita adalah milik kita.
+5. Di tengah perang, ia menulis jurnal pribadi, bukan untuk dibaca orang lain.
+   Kita mengenalnya sebagai ***Meditations***.
 
 🎙️ **Kalimat kunci:**
-> "Kaisar masa depan Roma belajar arti kebebasan sejati dari seorang pria
-> yang pernah dirantai."
+> "Calon penguasa dunia belajar arti kebebasan dari seorang pria yang pernah
+> dirantai. Dan pelajaran pertamanya sederhana: dunia bisa merampas segalanya
+> darimu, kecuali caramu menanggapinya."
 
-🎬 **Visual:** Palet kilas balik (sepia pudar). Bocah di halaman vila Romawi
-(parallax: pohon cemara, tiang marmer). Bocah tidur di lantai batu, cahaya
-bulan dari jendela. Gulungan Epictetus dibuka dengan efek *ink bleed*.
+🎬 **Visual:** Palet kilas balik (sepia). Bocah di halaman vila Romawi. Gulungan
+naskah dengan efek *ink bleed*. Ilustrasi simbolis: sebuah **benteng kecil**
+berdiri tenang di tengah badai.
 
 ---
 
-### BABAK 3 — BEBAN MAHKOTA (2:45–4:45)
+### BAB 3 — MUSUH PERTAMA: EGO (2:15–3:25)
 
-**Inti:** Tekanan datang bertubi-tubi. Tunjukkan kepada penonton betapa beratnya beban itu.
-
-**Poin cerita (urut):**
-1. **161 M**: Antoninus wafat. Kata terakhirnya: *"Aequanimitas"*, ketenangan jiwa.
-2. Marcus **menolak berkuasa sendirian** dan berbagi takhta dengan Lucius Verus.
-   *Godaan kekuasaan mutlak, ditolak.*
-3. Banjir, perang Parthia, lalu **wabah** yang menewaskan jutaan orang.
-4. Suku-suku Jermanik menyeberangi Danube dan **masuk ke Italia**.
-5. 169: Lucius wafat. Marcus kini memikul semuanya sendirian.
-6. Kas kosong → ia **melelang harta istananya sendiri**, bukan menaikkan pajak rakyat.
-7. Bertahun-tahun di tenda perang, tubuhnya lemah dan sakit.
-8. Di sanalah ia menulis jurnal: *"Di antara suku Quadi…"*, *"Di Carnuntum…"*.
+| Lapisan | Isi |
+|---|---|
+| **Pergulatan modern** | Kebutuhan untuk selalu terlihat benar, dihormati, dipuji; gengsi yang membuat kita sulit mengakui salah. |
+| **Kisah Marcus** | Saat naik takhta (161 M) ia bisa berkuasa sendirian, tapi justru **berbagi takhta** dengan Lucius Verus. Buku pertama *Meditations* dibuka dengan **daftar terima kasih** kepada orang-orang yang membentuknya. Ia menulis peringatan untuk dirinya sendiri: jangan menjadi "Caesar". |
+| **Prinsip** | *Meditations 6.30:* "Berhati-hatilah agar engkau tidak menjadi 'Caesar', jangan sampai terwarnai olehnya." |
+| **Penerapan** | Kekuatan sejati tidak perlu diumumkan. Pria yang dewasa bisa berkata "aku salah" dan "terima kasih". |
 
 🎙️ **Kalimat kunci:**
-> "Ia bisa saja memeras rakyatnya. Sebaliknya, ia menjual gaun sutra istrinya."
->
-> *Meditations 5.1:* "Saat fajar, ketika engkau berat untuk bangun, katakan
-> pada dirimu: aku bangun untuk melakukan pekerjaan seorang manusia."
+> "Ia adalah satu-satunya orang di dunia yang tak perlu meminta izin kepada
+> siapa pun. Dan ia menulis surat untuk dirinya sendiri, memohon agar tidak
+> berubah menjadi sombong."
 
-🎬 **Visual:** Montase cepat (pengecualian tempo, ±4 detik per gambar):
-air bah, legiun berbaris, kota sepi karena wabah (kabut, pintu dengan tanda),
-peta dengan panah musuh masuk Italia. Lalu tempo melambat: Forum Trajan, meja
-lelang dengan perhiasan emas. Akhiri dengan tenda malam: Marcus menulis,
-napasnya terlihat di udara dingin.
-
-🎵 **Audio:** Musik membangun ketegangan → mereda pada adegan menulis.
+🎬 **Visual:** Patung-patung kaisar yang megah dan dingin → Marcus muda menolak
+mahkota yang hanya untuk dirinya dan menyerahkan separuhnya. Halaman *Meditations*
+Buku 1 dengan nama-nama yang ditulis dengan tinta.
 
 ---
 
-### BABAK 4 — UJIAN: PENGKHIANATAN (4:45–7:00) ⭐ PUNCAK
+### BAB 4 — MUSUH KEDUA: TEKANAN (3:25–4:40)
 
-**Inti:** Kembali ke adegan hook. Semua yang ia latih diuji dalam satu peristiwa.
-
-**Poin cerita (urut):**
-1. Kabar palsu kematian Marcus menyebar. Avidius Cassius, pahlawan perang
-   Parthia, memproklamirkan diri sebagai kaisar. Mesir dan Suriah mendukungnya.
-2. Bagian ini diceritakan dari **dalam pikiran Marcus**: amarah, rasa
-   terluka, dan godaan membalas. *(Kutip Meditations 2.1, persiapan menghadapi orang yang mengkhianati.)*
-3. Ia **berpidato kepada pasukannya**. Ia tidak menghasut kebencian; ia
-   berharap bisa memaafkan.
-4. Tiga bulan kemudian, Cassius dibunuh oleh perwiranya sendiri.
-5. Kepala Cassius dibawa kepadanya → **ia menolak melihatnya**.
-6. Ia menyesal kehilangan kesempatan untuk mengampuni.
-7. Surat-surat para pendukung Cassius ditemukan → **dibakar tanpa dibaca**,
-   agar ia tidak terdorong membenci siapa pun.
-8. Pukulan terakhir: tahun yang sama, **istrinya Faustina wafat**.
+| Lapisan | Isi |
+|---|---|
+| **Pergulatan modern** | Tagihan, tuntutan pekerjaan, keluarga yang bergantung pada kita; rasa lelah yang tidak boleh terlihat. |
+| **Kisah Marcus** | Krisis datang bertubi-tubi: banjir, perang Parthia, **wabah yang menewaskan jutaan orang**, suku-suku Jermanik menembus Italia. Lucius wafat; ia memikul semuanya sendirian. Kas negara kosong, dan menurut catatan kuno ia **melelang harta istananya sendiri**, termasuk gaun sutra istrinya, alih-alih menaikkan pajak rakyat. Bertahun-tahun ia tinggal di tenda perang dengan tubuh yang sakit. |
+| **Prinsip** | *5.1:* "Saat fajar, ketika engkau berat untuk bangun, katakan pada dirimu: aku bangun untuk melakukan pekerjaan seorang manusia." · *5.20:* "Yang menghalangi jalan menjadi jalan." |
+| **Penerapan** | Disiplin bukan menunggu semangat datang. Tekanan tidak hilang; kita menjadi cukup kuat untuk memikulnya. Pria yang bertanggung jawab menanggung beban pertama, bukan terakhir. |
 
 🎙️ **Kalimat kunci:**
-> "Ia memegang di tangannya nama-nama semua orang yang mengkhianatinya.
-> Dan ia memilih untuk tidak tahu."
->
-> *Meditations 6.6:* "Balas dendam terbaik adalah tidak menjadi seperti orang
-> yang menyakitimu."
+> "Ia bisa saja memeras rakyatnya. Sebaliknya, ia menjual barang-barang
+> miliknya sendiri. Karena seorang pemimpin tidak meminta orang lain memikul
+> beban yang tak sanggup ia pikul."
 
-🎬 **Visual:** Kembali ke tenda dari hook, kini dengan konteks penuh.
-Close-up mata Marcus memantulkan api. Pidato di depan legiun (pull-out lebar,
-ratusan obor). Surat-surat dilempar ke api: **slow motion**, kertas
-menggulung dan percikan emas naik. Inilah *money shot* episode.
-Lalu adegan sunyi: Marcus sendirian, hujan atau salju, kabar duka.
-
-🎵 **Audio:** Musik paling emosional di bagian ini. Sunyi total ketika surat
-mulai terbakar; hanya terdengar derak api.
+🎬 **Visual:** Montase tempo cepat (±4 detik per gambar, pengecualian dari
+aturan tempo): air bah, legiun berbaris, kota sunyi berkabut karena wabah,
+panah musuh di atas peta Italia. Lalu tempo melambat: meja lelang di Forum
+dengan perhiasan emas dan kain sutra. Fajar di kamp: Marcus bangun dari dipan
+sempit, napasnya mengepul di udara dingin.
 
 ---
 
-### BABAK 5 — EMPAT PELAJARAN (7:00–8:50)
+### BAB 5 — MUSUH KETIGA: KETAKUTAN (4:40–5:50)
 
-**Inti:** Ubah kisah menjadi pelajaran bagi pria hari ini. Narator berbicara
-langsung kepada penonton, tanpa menggurui.
+| Lapisan | Isi |
+|---|---|
+| **Pergulatan modern** | Takut gagal, takut kehilangan pekerjaan atau orang yang dicintai, takut tidak cukup baik. Kecemasan yang datang pada jam tiga pagi. |
+| **Kisah Marcus** | Ia hidup dikelilingi kematian: wabah, perang, tubuhnya yang terus sakit. Dari 13 anak lebih yang lahir, sebagian besar meninggal saat masih kecil. Surat-suratnya menunjukkan ia sangat berduka. Ia tidak berpura-pura kuat; ia **menatap kematian** agar tidak dikuasai olehnya. |
+| **Prinsip** | *2.11:* "Engkau bisa meninggalkan hidup ini saat ini juga. Biarlah itu menentukan apa yang engkau lakukan, katakan, dan pikirkan." · *8.47:* "Yang menyakitimu bukan hal itu, melainkan penilaianmu atasnya." |
+| **Penerapan** | Ketakutan sering lebih besar dari kenyataan. Pisahkan apa yang bisa kita kendalikan dari yang tidak. Lakukan bagian kita dengan sepenuh hati, lalu lepaskan sisanya. |
 
-| Pilar | Kisah Marcus | Untuk pria hari ini | Kutipan |
-|---|---|---|---|
-| **1. Disiplin** | Bangun & bekerja di tenda perang meski sakit | Jangan menunggu "mood" untuk melakukan yang benar | 5.1 |
-| **2. Emosi** | Marah & terluka, tapi tidak membalas | Beri jeda sebelum bereaksi; yang menyakitimu adalah tafsiranmu | 8.47 / 11.18 |
-| **3. Tanggung jawab** | Melelang hartanya sendiri | Pemimpin menanggung beban pertama, bukan terakhir | 4.49 |
-| **4. Kedewasaan** | Memaafkan sang pengkhianat | Kekuatan tertinggi adalah memilih untuk tidak membalas | 6.6 |
-
-🎙️ **Kalimat penyeimbang (penting):**
+🎙️ **Kalimat kunci:**
 > "Kendali diri bukan berarti tidak merasakan apa-apa. Marcus menangisi
-> anak-anaknya. Ia merasakan semuanya, tetapi ia tidak membiarkan perasaannya
-> memegang kemudi."
+> anak-anaknya. Ia merasakan semuanya. Tetapi ia tidak membiarkan rasa takut
+> memegang kemudi hidupnya."
 
-🎬 **Visual:** Setiap pilar = satu "halaman buku" dengan ilustrasi simbolis
-(lilin menyala di fajar · ombak menghantam tanjung karang · timbangan dan
-koin emas · surat terbakar). Judul pilar ditulis dengan tinta emas. Kamera statis
-saat kutipan tampil (minimal 4 detik).
+🎬 **Visual:** Kamar gelap, satu lilin. Mainan kayu anak kecil di lantai
+(isyarat duka, tanpa adegan kematian). Marcus berdiri di depan jendela pada
+malam berbintang. Ilustrasi simbolis: bayangan raksasa di dinding ternyata
+berasal dari benda kecil di depan lilin (ketakutan lebih besar dari kenyataan).
 
 ---
 
-### BABAK 6 — MATAHARI TERBENAM (8:50–10:00)
+### BAB 6 — MUSUH KEEMPAT: AMARAH (5:50–8:15) ⭐ PUNCAK
 
-**Poin cerita (urut):**
-1. **180 M**: Marcus wafat di front utara; perang belum selesai.
-2. Kata-kata terakhirnya kepada perwira jaga: *"Pergilah kepada matahari
-   yang terbit; aku sudah terbenam."*
-3. **Ironi pahit:** putranya, Commodus, menjadi kaisar yang kejam. Roma jatuh
-   "dari emas menjadi besi dan karat".
-4. Pelajaran terakhir: **kendali diri tidak bisa diwariskan.** Ia harus dibangun
-   sendiri, oleh setiap pria, setiap pagi.
-5. Penutup dengan *Meditations 10.16*.
+| Lapisan | Isi |
+|---|---|
+| **Pergulatan modern** | Dikhianati teman, difitnah, diremehkan; dorongan untuk membalas lebih keras. |
+| **Kisah Marcus** | **175 M:** kabar palsu kematiannya menyebar. Avidius Cassius, **jenderal terbaik dan orang kepercayaannya**, mengangkat diri menjadi kaisar. Mesir dan Suriah mendukungnya. Marcus berpidato kepada pasukannya tanpa menghasut kebencian; ia berharap bisa **memaafkan**. Tiga bulan kemudian Cassius dibunuh oleh perwiranya sendiri. Kepalanya dibawa kepada Marcus, dan **ia menolak melihatnya**. Ia menyesal kehilangan kesempatan untuk mengampuni. Surat-surat para pendukung Cassius ditemukan, dan ia **membakarnya tanpa membaca**, agar tidak terdorong membenci siapa pun. Di tahun yang sama, istrinya Faustina wafat. |
+| **Prinsip** | *2.1:* persiapan pagi menghadapi orang yang tak tahu terima kasih dan penipu · *11.18:* "Betapa jauh lebih berat akibat kemarahan dibanding penyebabnya." · *6.6:* "Balas dendam terbaik adalah tidak menjadi seperti orang yang menyakitimu." |
+| **Penerapan** | Beri jeda antara rasa dan tindakan. Membalas itu mudah, siapa pun bisa. Memaafkan saat kita mampu menghancurkan adalah bentuk kekuatan tertinggi seorang pria. |
+
+**Alur emosi bab ini:**
+1. Kabar datang → kejutan
+2. **Masuk ke dalam pikiran Marcus:** rasa terluka, amarah, godaan membalas. Narasi pelan dan intim.
+3. Pilihan: ia berpidato tanpa kebencian
+4. Kepala yang tak ingin ia lihat
+5. ⭐ **Surat-surat dibakar**, momen paling sinematik
+6. Duka: Faustina wafat. Ia tetap berdiri.
+
+🎙️ **Kalimat kunci:**
+> "Ia memegang di tangannya nama-nama semua orang yang telah mengkhianatinya.
+> `[jeda]` Dan ia memilih untuk tidak tahu."
+>
+> "Siapa pun bisa membalas. Hanya sedikit pria yang mampu menahan diri,
+> justru ketika ia mampu menghancurkan."
+
+🎬 **Visual:** Utusan masuk ke tenda bersalju; gulungan surat dengan cap lilin
+merah. Peta kekaisaran dengan tinta merah menyebar dari Suriah. Close-up mata
+Marcus memantulkan api. Pidato di depan legiun (*pull-out* lebar, ratusan
+obor). Kotak kayu diletakkan; Marcus **memalingkan wajah**. Surat dilempar ke api
+dalam **gerak lambat**: kertas menggulung, percikan emas naik ke kegelapan.
+Penutup bab: Marcus sendirian di bawah salju.
+
+🎵 **Audio:** Musik paling emosional di sini. **Hening total** saat surat mulai
+terbakar; hanya derak api.
+
+---
+
+### BAB 7 — PENUTUP: MATAHARI TERBENAM (8:15–10:00)
+
+**Poin:**
+1. **180 M:** Marcus wafat di front utara, di tengah perang yang belum selesai.
+2. Menurut catatan Cassius Dio, kata-kata terakhirnya kepada perwira jaga:
+   *"Pergilah kepada matahari yang terbit; aku sudah terbenam."*
+3. **Ironi sejarah (singkat, 2–3 kalimat):** putranya, Commodus, menjadi kaisar
+   yang kejam dan lalai. Roma jatuh *"dari kerajaan emas menjadi besi dan karat."*
+   → Pelajaran: **kendali diri tidak bisa diwariskan.** Mahkota bisa diberikan;
+   karakter harus dibangun sendiri.
+4. **Kembali ke hook:** perang di dalam dada setiap pria; empat musuh dirangkum.
+5. Tutup dengan *Meditations 10.16*.
 
 🎙️ **Kalimat penutup (draf):**
-> "Ia tidak pernah menulis *Meditations* untuk kita. Ia menulisnya untuk
-> dirinya sendiri, karena bahkan seorang kaisar harus mengingatkan dirinya
-> setiap pagi.
+> "Marcus Aurelius bisa mewariskan sebuah kekaisaran kepada putranya. Tapi ia
+> tidak bisa mewariskan apa yang paling berharga dari dirinya. Karena kendali
+> diri tidak diturunkan. Ia dibangun, oleh setiap pria, setiap pagi.
+>
+> Ego. Tekanan. Ketakutan. Amarah. Musuh-musuh itu tidak akan pernah benar-benar
+> pergi. Marcus pun masih melawannya hingga akhir hayatnya. Itulah sebabnya ia
+> terus menulis.
+>
+> `[jeda]`
+>
+> Dan mungkin, di antara catatannya, ada satu kalimat yang ia tulis untuk kita
+> semua:
 >
 > Jangan buang waktu lagi berdebat tentang seperti apa pria yang baik itu.
 >
 > **Jadilah dia.**"
 
 🎬 **Visual:** Matahari terbenam di atas Danube (gradasi burgundy ke emas).
-Tenda kosong, lilin padam dengan asap tipis naik. *Pull-out* perlahan.
-Buku ditutup → logo channel.
+Tenda kosong; lilin padam dan asap tipis naik. *Match cut* balik ke siluet pria
+di tebing dari hook, kini **badai telah reda**. Buku ditutup → logo channel.
 
-🎵 **Audio:** Tema utama kembali, lalu hening sejenak sebelum logo.
-
----
-
-## 4. Ide Judul & Thumbnail
-
-**Judul YouTube (pilih satu):**
-1. *He Could Destroy His Betrayer. He Chose Something Harder.* — Marcus Aurelius
-2. *The Most Powerful Man on Earth Refused to Look* — The Power of Self-Control
-3. *Marcus Aurelius: How an Emperor Conquered Himself*
-
-**Konsep thumbnail:** Wajah Marcus setengah dalam bayangan, menoleh dari
-cahaya lilin. Latar burgundy gelap, teks emas singkat: **"HE REFUSED."**
+🎵 **Audio:** Tema utama kembali → hening sejenak → logo.
 
 ---
 
-## 5. Kandidat Shorts (9:16, 30–60 detik)
+## 6. Judul, Thumbnail & Deskripsi
 
-1. **Surat yang dibakar**: kisah pengkhianatan → membakar surat (dari Babak 4).
-2. **Kaisar yang menjual hartanya**: lelang istana (dari Babak 3).
-3. **Nasihat pagi seorang kaisar**: Meditations 2.1 + 5.1 (dari Babak 5).
+- **Judul YouTube:** *Pria yang Berhasil Menguasai Dirinya Sendiri | Pelajaran Pengendalian Diri dari Marcus Aurelius*
+- **Thumbnail:** Wajah Marcus setengah dalam bayangan, menoleh dari cahaya
+  lilin. Latar burgundy gelap. Teks emas singkat, pilih salah satu:
+  **"IA MEMILIH DIAM"** · **"MUSUH TERBESARMU"** · **"KUASAI DIRIMU"**
+- **Deskripsi (draf awal):** *Ego, amarah, ketakutan, dan tekanan hidup. Empat
+  musuh yang dihadapi setiap pria. Hampir dua ribu tahun lalu, seorang kaisar
+  Roma menghadapi musuh yang sama, dan meninggalkan catatan tentang cara
+  memenangkannya.*
 
----
+## 7. Kandidat Shorts (9:16, 30–60 detik)
 
-## 6. Keputusan yang Perlu Disetujui
+1. **Surat yang dibakar** (Bab 6). Hook: *"Ia memegang nama-nama semua pengkhianatnya…"*
+2. **Kaisar yang menjual hartanya sendiri** (Bab 4).
+3. **Nasihat pagi seorang kaisar**: Meditations 2.1 + 5.1 (Bab 4 & 6).
+4. **Jangan menjadi Caesar** (Bab 3).
 
-- [ ] **Bahasa narasi**: Indonesia (draf saat ini) atau Inggris (sesuai nama channel)?
-- [ ] **Hook**: setuju membuka dengan kisah pengkhianatan Cassius?
-- [ ] **Catatan kritis**: setuju Commodus disebut di penutup, sementara isu lain cukup dicatat di `research.md`?
-- [ ] **Judul video**: pilih dari daftar di atas atau usulan lain.
+## 8. Langkah Berikutnya (setelah disetujui)
 
-## 7. Langkah Berikutnya (setelah disetujui)
-
-1. Menulis **naskah narasi lengkap** di `voice-over/001-marcus-aurelius/script.md`
-2. Membuat **lembar karakter**: Marcus (muda & tua), Avidius Cassius, Faustina
+1. Menulis **naskah narasi lengkap** (±1.300 kata) di `voice-over/001-marcus-aurelius/script.md`
+2. Membuat **lembar karakter**: Marcus (muda & tua), Avidius Cassius, Faustina, dan "Pria Tanpa Zaman" (siluet hook)
 3. Membuat **storyboard** per adegan (±70–80 adegan × ±8 detik)
