@@ -3,7 +3,7 @@
 > **Judul:** *Pria yang Berhasil Menguasai Dirinya Sendiri*
 > **Subjudul:** *Pelajaran Pengendalian Diri dari Marcus Aurelius*
 > **Durasi target:** 10 menit (±1.300 kata narasi, tempo ±130 kata/menit)
-> **Status:** 🟡 Kerangka (draf 2) — menunggu persetujuan
+> **Status:** ✅ Kerangka disetujui (draf 2)
 > **Dasar fakta:** lihat `research.md` di folder ini
 
 ---
@@ -17,6 +17,8 @@
 | Hook | Dimulai dari pergulatan pria modern: ego, amarah, ketakutan, tekanan hidup |
 | Fokus | **Pelajaran hidup**, bukan sekadar biografi. Sejarah dipakai sebagai cermin. |
 | Commodus | Disebut singkat di penutup sebagai ironi sejarah |
+| Struktur | Empat musuh di dalam diri: Ego → Tekanan → Ketakutan → Amarah |
+| Teks thumbnail | **"MUSUH TERBESARMU"** |
 
 ---
 
@@ -305,8 +307,7 @@ di tebing dari hook, kini **badai telah reda**. Buku ditutup → logo channel.
 
 - **Judul YouTube:** *Pria yang Berhasil Menguasai Dirinya Sendiri | Pelajaran Pengendalian Diri dari Marcus Aurelius*
 - **Thumbnail:** Wajah Marcus setengah dalam bayangan, menoleh dari cahaya
-  lilin. Latar burgundy gelap. Teks emas singkat, pilih salah satu:
-  **"IA MEMILIH DIAM"** · **"MUSUH TERBESARMU"** · **"KUASAI DIRIMU"**
+  lilin. Latar burgundy gelap. Teks emas: **"MUSUH TERBESARMU"** ✅
 - **Deskripsi (draf awal):** *Ego, amarah, ketakutan, dan tekanan hidup. Empat
   musuh yang dihadapi setiap pria. Hampir dua ribu tahun lalu, seorang kaisar
   Roma menghadapi musuh yang sama, dan meninggalkan catatan tentang cara
