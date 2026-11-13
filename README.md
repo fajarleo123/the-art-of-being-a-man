@@ -26,6 +26,8 @@ Detail lengkap ada di folder `master-style/`.
 ```
 the-art-of-being-a-man/
 ├── README.md                  ← File ini (gambaran umum proyek)
+├── CLAUDE.md                  ← Instruksi tetap untuk Claude
+├── production-workflow/       ← SOP produksi + template episode baru
 ├── master-style/              ← "Kitab aturan" gaya visual seluruh channel
 │   ├── visual-guide.md        ← Aturan ilustrasi, komposisi, tekstur
 │   ├── animation-rules.md     ← Aturan gerak kamera, parallax, transisi
@@ -43,6 +45,7 @@ the-art-of-being-a-man/
 
 | Folder | Fungsi | Status |
 |---|---|---|
+| `production-workflow/` | **SOP produksi permanen**: 10 tahap dari brief sampai render, gerbang persetujuan, formula episode 5 menit, dan template dokumen. Episode baru cukup dimulai dengan nama tokoh + tema. | ✅ Siap |
 | `master-style/` | Panduan gaya yang **wajib diikuti** semua episode, supaya channel punya identitas visual yang konsisten. | ✅ Siap |
 | `episodes/` | Tempat kerja per episode: konsep, naskah, daftar adegan (storyboard). Format nama: `NNN-nama-tokoh`. | ✅ Episode 001 dimulai |
 | `character-library/` | Deskripsi fisik, pakaian, dan ekspresi tiap tokoh. Dipakai ulang jika tokoh muncul di beberapa episode. | 📄 Template siap |
