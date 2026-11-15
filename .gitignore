@@ -11,3 +11,9 @@ dist/
 # File sistem
 .DS_Store
 Thumbs.db
+
+# Music licensed from YouTube Audio Library must NOT be published separately.
+# Keep music files local only (see assets/music/README.md).
+assets/music/*.mp3
+assets/music/*.wav
+assets/music/*.m4a
