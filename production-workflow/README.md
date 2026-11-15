@@ -109,7 +109,7 @@ episodes/NNN-nama-tokoh/
 voice-over/NNN-nama-tokoh/
 ├── script.md              ← Naskah narasi (tahap 3)
 └── audio/                 ← Rekaman (tahap 7)
-    └── NNN-scene-01.wav ...
+    └── NNN-bab-0-hook.wav ...
 ```
 
 ## 🏷️ Konvensi Penamaan
@@ -123,7 +123,7 @@ voice-over/NNN-nama-tokoh/
 | Gambar Mode Poster | `P` + 2 digit + nama | `P09-tenda-menulis.png` |
 | Gambar Close-up | `C` + nomor + nama | `C1-closeup-duka.png` |
 | Layer (hanya adegan kunci) | kode gambar + layer | `P09-bg.png`, `P09-char.png` |
-| File audio | `NNN-scene-NN.wav` | `002-scene-07.wav` |
+| File audio (per bab) | `NNN-bab-N-nama.wav` | `001-bab-7-henriette.wav` |
 | Karakter berulang | `character-library/nama-tokoh/` | `character-library/pria-tanpa-zaman/` |
 
 ---
