@@ -1,7 +1,7 @@
 # Riset — Episode 001: Giacomo Casanova
 
 > **Tema:** Pesona tanpa karakter · **Pilar:** Integritas (+ Kesetiaan & Cinta) · **Jenis:** Peringatan
-> **Status:** 🟡 Draf 1 — menunggu persetujuan
+> **Status:** ✅ Disetujui (La Charpillon dipakai sebagai bab tambahan)
 
 | Label | Arti |
 |---|---|
