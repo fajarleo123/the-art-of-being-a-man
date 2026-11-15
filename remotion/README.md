@@ -1,6 +1,6 @@
 # Remotion — Mesin Animasi Video
 
-> **Status:** 🟡 Dibangun (uji coba hook episode 001)
+> **Status:** 🟡 Episode 001 lengkap 37 adegan (pratinjau tanpa suara)
 > Remotion 4.0.539 (gratis untuk individu & tim kecil). Render dilakukan di sesi cloud Claude, **tanpa AWS**.
 
 ## Isi Folder
@@ -21,7 +21,12 @@ remotion/
 │   │   ├── Text.tsx            kartu judul, label tempat/tahun, subtitle
 │   │   ├── Transitions.tsx     halaman buku dibalik, fade
 │   │   └── Notifications.tsx   gelembung pesan (tanpa tulisan)
-│   └── episodes/ep001/     ← Adegan khusus episode 001
+│   │   ├── Cards.tsx           judul bab & kartu kutipan
+│   │   ├── MapRoute.tsx        peta kuno dengan garis perjalanan tinta merah
+│   │   ├── GlassWriting.tsx    tulisan tergores di kaca (muncul / berkilau)
+│   │   └── BookEnd.tsx         buku penutup + pertanyaan untuk komentar
+│   ├── engine/Timeline.tsx ← "Mesin adegan": daftar adegan (data) → video, termasuk transisi
+│   └── episodes/ep001/     ← Episode 001: HookPreview.tsx (S01–S06), scenes.tsx (S07–S37 sebagai data), Full.tsx
 └── public/, out/, node_modules/  ← dibuat otomatis, TIDAK disimpan di GitHub
 ```
 
@@ -33,6 +38,14 @@ npm install
 ```bash
 npm run render:hook-001
 ```
+```bash
+npm run render:full-001
+```
+
+## Cara membuat episode baru
+1. Salin `src/episodes/ep001/scenes.tsx` menjadi folder episode baru.
+2. Isi satu objek per adegan dari storyboard: gambar, gerak kamera (`from`/`to`), transisi, cahaya, partikel, judul bab, label tempat, kutipan, narasi.
+3. Daftarkan komposisinya di `src/Root.tsx`.
 
 Hasil video ada di `remotion/out/` dan dikirim ke pemilik proyek lewat chat.
 

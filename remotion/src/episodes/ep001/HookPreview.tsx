@@ -148,7 +148,7 @@ const S05: React.FC = () => (
 );
 
 // Lanterns in P02 (image coordinates)
-const S06: React.FC = () => {
+const S06: React.FC<{endFade: boolean}> = ({endFade}) => {
   const frame = useCurrentFrame();
   const dim = interpolate(frame, [30, 70], [0, 0.4], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
@@ -168,12 +168,13 @@ const S06: React.FC = () => {
       />
       <Caption text="Namanya Giacomo Casanova." from={14} to={110} />
       <Caption text="Dan ini kisah tentang apa yang tidak bisa dibeli oleh pesona." from={118} to={T.S06.dur - 24} />
-      <FadeEdges durationInFrames={T.S06.dur} fadeOut={24} />
+      {endFade ? <FadeEdges durationInFrames={T.S06.dur} fadeOut={24} /> : null}
     </AbsoluteFill>
   );
 };
 
-export const HookPreview: React.FC = () => (
+/** Hook S01–S06 without the finishing layers (used by the preview and the full episode). */
+export const HookContent: React.FC<{endFade: boolean}> = ({endFade}) => (
   <AbsoluteFill style={{backgroundColor: '#000'}}>
     <Sequence from={T.S01.from} durationInFrames={T.S01.dur} name="S01">
       <S01 />
@@ -190,7 +191,7 @@ export const HookPreview: React.FC = () => (
     {/* S06 starts under S05 while the page turns */}
     <Sequence from={T.S06.from - PAGE_TURN} durationInFrames={T.S06.dur + PAGE_TURN} name="S06">
       <Sequence from={PAGE_TURN} durationInFrames={T.S06.dur} layout="none">
-        <S06 />
+        <S06 endFade={endFade} />
       </Sequence>
     </Sequence>
     <Sequence from={T.S06.from - PAGE_TURN} durationInFrames={PAGE_TURN} name="S06-under">
@@ -201,6 +202,12 @@ export const HookPreview: React.FC = () => (
         <S05 />
       </PageTurnOut>
     </Sequence>
+  </AbsoluteFill>
+);
+
+export const HookPreview: React.FC = () => (
+  <AbsoluteFill>
+    <HookContent endFade />
     {/* channel-wide finishing layers */}
     <PaperTexture />
     <FilmGrain />
