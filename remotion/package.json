@@ -8,7 +8,9 @@
     "studio": "npm run sync-assets && remotion studio src/index.ts",
     "render:hook-001": "npm run sync-assets && remotion render src/index.ts Ep001-HookPreview out/ep001-hook-preview.mp4",
     "typecheck": "tsc --noEmit",
-    "render:full-001": "npm run sync-assets && remotion render src/index.ts Ep001-Full out/ep001-full.mp4"
+    "render:full-001": "npm run sync-assets && remotion render src/index.ts Ep001-Full out/ep001-casanova-dengan-suara.mp4 --codec=h264 --crf=21",
+    "voice-001": "node scripts/voice.mjs 001-giacomo-casanova src/episodes/ep001/narration.json src/episodes/ep001/timing.json 1.11 0.65",
+    "mix-001": "node scripts/mix.mjs src/episodes/ep001/timing.json src/episodes/ep001/voice-options.json src/episodes/ep001/music.json"
   },
   "dependencies": {
     "@remotion/cli": "4.0.539",

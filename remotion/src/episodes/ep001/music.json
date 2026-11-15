@@ -1,0 +1,22 @@
+{
+  "voiceVideo": "out/ep001-casanova-dengan-suara.mp4",
+  "output": "out/ep001-casanova-final.mp4",
+  "tracks": {
+    "M1": "../assets/music/001-m1-tema-utama.mp3",
+    "M2": "../assets/music/001-m2-ketegangan.mp3"
+  },
+  "musicLoudness": -25,
+  "finalLoudness": -14,
+  "cues": [
+    {"track": "M1", "fromScene": "S01", "toScene": "S16", "offset": 0, "fadeIn": 2.5, "fadeOut": 3.5},
+    {"track": "M2", "fromScene": "S17", "toScene": "S23", "offset": 0, "fadeIn": 2.5, "fadeOut": 3.5},
+    {"track": "M1", "fromScene": "S24", "toScene": "S37", "offset": 0, "fadeIn": 3, "fadeOut": 4}
+  ],
+  "sfx": [
+    {"type": "heartbeat", "fromScene": "S01", "toScene": "S03", "bpm": 60, "volume": 0.5},
+    {"type": "heartbeat", "fromScene": "S13", "toScene": "S13", "bpm": 64, "volume": 0.25},
+    {"type": "page", "atScene": "S06", "volume": 0.5},
+    {"type": "page", "atScene": "S37", "volume": 0.5},
+    {"type": "wind", "fromScene": "S32", "toScene": "S32", "volume": 0.35}
+  ]
+}

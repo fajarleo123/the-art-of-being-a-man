@@ -9,6 +9,7 @@ import {SceneSpec, Timeline, timelineLength} from '../../engine/Timeline';
 import {HOOK_SCENES} from './hookScenes';
 import {EP001_SCENES} from './scenes';
 import timing from './timing.json';
+import voiceOptions from './voice-options.json';
 
 // S07 carries one extra second in the storyboard version for the S06→S07 ink overlap;
 // with voice timing the overlap is handled by the engine, so drop it there.
@@ -17,12 +18,8 @@ const storyboardScenes: SceneSpec[] = [
   ...EP001_SCENES.map((s) => (s.id === 'S07' ? {...s, dur: s.dur - 1} : s)),
 ];
 
-export const EP001_VOICED: SceneSpec[] = applyVoice(storyboardScenes, timing as VoiceTiming, {
-  // "[jeda panjang]" moments from the script, restored after the voice clean-up
-  holdAfter: {S02: 0.8, S03: 0.6, S05: 0.5, S28: 1.4, S30: 0.5, S34: 1.0, S36: 0.5},
-  chapterTail: 0.4,
-  tailAfter: {S05: 0.8, S31: 1.2, S37: 2.5},
-});
+// "[jeda panjang]" holds & chapter tails live in voice-options.json (also read by scripts/mix.mjs)
+export const EP001_VOICED: SceneSpec[] = applyVoice(storyboardScenes, timing as VoiceTiming, voiceOptions);
 export const EP001_STORYBOARD = storyboardScenes;
 
 export const EP001_DURATION = timelineLength(EP001_VOICED);
