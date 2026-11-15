@@ -70,6 +70,7 @@ Pria Tanpa Zaman menggulir layar ponsel di kamar gelap; banyak pesan, banyak ken
 - [x] 3 · Naskah → `voice-over/001-giacomo-casanova/script.md`
 - [x] 4 · Desain karakter → `character-design.md`
 - [x] 5 · Storyboard + paket prompt → `storyboard.md`, `image-prompts.md`
+- [x] 5b · 2 Shorts → `shorts.md`
 - [ ] 6 · Gambar AI → `images/` ← **sekarang** (Gelombang 1: R1, R2, R3)
 - [ ] 7 · Voice-over → `voice-over/001-giacomo-casanova/audio/`
 - [ ] 8 · Animasi → `remotion/`

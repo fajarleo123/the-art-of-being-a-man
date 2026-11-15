@@ -36,11 +36,11 @@ baru dimulai setelah pemilik proyek menyetujui.
 | 2 | **Kerangka** | `episodes/NNN-tokoh/script-outline.md` | [tahap/02-kerangka.md](tahap/02-kerangka.md) | [templates/script-outline.md](templates/script-outline.md) |
 | 3 | **Naskah narasi** | `voice-over/NNN-tokoh/script.md` | [tahap/03-naskah.md](tahap/03-naskah.md) | [templates/script.md](templates/script.md) |
 | 4 | **Desain karakter** | `episodes/NNN-tokoh/character-design.md` | [tahap/04-desain-karakter.md](tahap/04-desain-karakter.md) | [templates/character-design.md](templates/character-design.md) |
-| 5 | **Storyboard + paket prompt** | `episodes/NNN-tokoh/storyboard.md` + `image-prompts.md` | [tahap/05-storyboard.md](tahap/05-storyboard.md) | [templates/storyboard.md](templates/storyboard.md) |
+| 5 | **Storyboard + paket prompt + 2 Shorts** | `episodes/NNN-tokoh/storyboard.md` + `image-prompts.md` + `shorts.md` | [tahap/05-storyboard.md](tahap/05-storyboard.md) | [templates/storyboard.md](templates/storyboard.md) |
 | 6 | **Gambar AI** | `episodes/NNN-tokoh/images/` | [tahap/06-gambar-ai.md](tahap/06-gambar-ai.md) | — |
 | 7 | **Voice-over** | `voice-over/NNN-tokoh/audio/` | [tahap/07-voice-over.md](tahap/07-voice-over.md) | — |
 | 8 | **Animasi (Remotion)** | `remotion/` | [tahap/08-animasi-remotion.md](tahap/08-animasi-remotion.md) | — |
-| 9 | **Render & publikasi** | file MP4 + thumbnail + deskripsi | [tahap/09-render-publikasi.md](tahap/09-render-publikasi.md) | — |
+| 9 | **Render & publikasi** | 1 video panjang + **2 Shorts** + thumbnail + deskripsi | [tahap/09-render-publikasi.md](tahap/09-render-publikasi.md) | — |
 
 Tahap 0–5 adalah **perencanaan** (hanya dokumen). Tahap 6–9 adalah
 **produksi** (gambar, suara, video).
@@ -90,6 +90,15 @@ Semua episode memakai kerangka yang sama. Yang berganti hanya tokoh, kisah, dan 
 
 ---
 
+## 📱 Shorts (Wajib di Setiap Episode)
+
+- **Setiap episode menghasilkan 1 video panjang + 2 Shorts.**
+- Shorts dipotong dari video panjang: **tanpa gambar baru dan tanpa rekaman suara baru**.
+- Format 9:16, maks. 60 detik, tata letak **"Halaman Buku Vertikal"**, subtitle berjalan, hook di 2 detik pertama.
+- Pilih 2 ide yang berbeda: biasanya **satu kisah emosional** (dari puncak) + **satu pesan inti** (dari hook & penutup).
+- Ajakan di akhir hanya ke video lengkap (episode 001–005 tanpa jualan).
+- Contoh lengkap: `episodes/001-giacomo-casanova/shorts.md`
+
 ## 📁 Struktur Folder per Episode
 
 ```
@@ -100,6 +109,7 @@ episodes/NNN-nama-tokoh/
 ├── character-design.md    ← Desain karakter (tahap 4)
 ├── storyboard.md          ← Storyboard: adegan → gambar (tahap 5)
 ├── image-prompts.md       ← Paket prompt siap tempel (tahap 5)
+├── shorts.md              ← Rencana 2 Shorts (tahap 5)
 └── images/                ← Gambar hasil AI (tahap 6)
     ├── R1-marcus-referensi.png
     ├── P01-tebing-badai.png

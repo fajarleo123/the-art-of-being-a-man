@@ -6,7 +6,7 @@
 | Versi | Resolusi | FPS | Format |
 |---|---|---|---|
 | Video utama | 1920×1080 (16:9) | 30 | MP4 (H.264), audio AAC |
-| Shorts | 1080×1920 (9:16) | 30 | MP4 (H.264) |
+| Shorts (2 per episode) | 1080×1920 (9:16), maks. 60 dtk | 30 | MP4 (H.264) |
 
 File video **tidak** disimpan di GitHub (sudah diabaikan oleh `.gitignore`).
 
@@ -21,7 +21,7 @@ File video **tidak** disimpan di GitHub (sudah diabaikan oleh `.gitignore`).
 - Judul + subjudul (dari kerangka).
 - Thumbnail (teks dari kerangka).
 - Deskripsi: ringkasan, daftar bab dengan waktu (*timestamps*), sumber utama.
-- Shorts: 3–4 potongan dari kandidat di kerangka.
+- **2 Shorts** sesuai `shorts.md`: subtitle berjalan, hook di 2 detik pertama, kartu penutup ke video lengkap, judul + 2–3 tagar.
 
 ## Setelah publikasi
 - Tandai episode ✅ selesai di `episodes/NNN-nama-tokoh/README.md`.

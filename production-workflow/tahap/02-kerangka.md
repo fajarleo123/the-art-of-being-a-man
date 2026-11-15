@@ -11,7 +11,7 @@
    Pelajaran yang terkait peristiwa puncak diletakkan terakhir.
 4. Isi **peta waktu** (detik + target kata per bab).
 5. Untuk setiap bab: tabel *Pergulatan modern → Kisah → Prinsip → Penerapan*, kalimat kunci, arahan visual singkat, dan arahan audio.
-6. Usulkan **judul, subjudul, teks thumbnail, dan 3–4 ide Shorts**.
+6. Usulkan **judul, subjudul, teks thumbnail, dan 3–4 ide Shorts** (2 akan dipilih di tahap 5).
 7. Tentukan **ajakan penutup** (CTA): episode 001–005 hanya subscribe/komentar; mulai 006 boleh ajakan halus ke e-book.
 
 ## Porsi isi (fokus pelajaran)

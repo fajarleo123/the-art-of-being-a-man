@@ -36,7 +36,7 @@
 - [ ] 2 · Kerangka → `script-outline.md`
 - [ ] 3 · Naskah → `voice-over/NNN-nama-tokoh/script.md`
 - [ ] 4 · Desain karakter → `character-design.md`
-- [ ] 5 · Storyboard → `storyboard.md`
+- [ ] 5 · Storyboard + paket prompt + 2 Shorts → `storyboard.md`, `image-prompts.md`, `shorts.md`
 - [ ] 6 · Gambar AI → `images/` (prompt: `image-prompts.md`)
 - [ ] 7 · Voice-over → `voice-over/NNN-nama-tokoh/audio/`
 - [ ] 8 · Animasi → `remotion/`

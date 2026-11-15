@@ -16,6 +16,8 @@
 6. Tambahkan **peta pemakaian gambar**, daftar teks di layar, dan **cek kesinambungan**.
 7. Buat **`image-prompts.md`**: prompt **lengkap tanpa kode** (blok gaya + token + deskripsi + `[HINDARI]`), dikelompokkan per **gelombang** (referensi dulu, lalu gambar yang paling sering dipakai). Setiap gambar mencantumkan: dipakai di adegan mana, gambar yang harus dilampirkan, nama file, dan cek wajib.
    Contoh: `episodes/004-marcus-aurelius/image-prompts.md`
+8. Buat **`shorts.md`** (template: `templates/shorts.md`): rencana **2 Shorts** (9:16, ≤60 detik) yang dipotong dari video panjang, tanpa gambar & suara baru. Untuk setiap Shorts: hook 2 detik pertama, potongan suara per bab, gambar yang dipakai, teks di layar, dan kartu penutup ke video lengkap.
+   Contoh: `episodes/001-giacomo-casanova/shorts.md`
 
 ## Aturan kamera & animasi (dari `master-style/animation-rules.md`)
 - Satu gerakan kamera utama per adegan; selalu dengan *easing*.

@@ -197,6 +197,11 @@ Ini **hanya usulan**; setiap tokoh tetap melalui tahap brief dan riset.
 
 ---
 
+## Format Setiap Episode
+
+- **1 video panjang** (5 menit, 16:9)
+- **2 Shorts** (9:16, ≤60 detik), dipotong dari video panjang: satu kisah emosional + satu pesan inti
+
 ## Aturan Jualan (E-book)
 
 | Episode | Boleh | Tidak boleh |
