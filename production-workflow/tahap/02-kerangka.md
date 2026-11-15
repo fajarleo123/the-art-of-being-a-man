@@ -16,7 +16,9 @@
 
 ## Porsi isi (fokus pelajaran)
 - Setiap bab **dibuka** dengan pergulatan pria modern dan **ditutup** dengan penerapan yang bisa dilakukan hari itu.
-- Kisah tokoh adalah **bukti** pelajaran: ±40–45% isi. Pelajaran & renungan: ±55–60%.
+- Kisah tokoh adalah **bukti** pelajaran: ±40% isi. Pelajaran & renungan: ±60%, dengan ±60% di antaranya dibingkai lewat **asmara & hubungan**.
+- Judul dan hook **selalu** bersudut asmara/daya tarik; penutup kembali ke pesan inti: *pesona membuat tertarik, karakter membuat bertahan.*
+- Cek **Garis Batas** di `brand/pilar-pria-sejati.md` sebelum menyerahkan kerangka.
 
 ## Panduan hook
 - Dibuka dengan **pergulatan pria modern** (memakai Pria Tanpa Zaman), bukan dengan tanggal sejarah.
