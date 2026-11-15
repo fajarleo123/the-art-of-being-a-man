@@ -1,6 +1,6 @@
 # Episode 001 — Giacomo Casanova
 
-> **Status:** ✅ Tahap 0–5 disetujui · 🟡 Tahap 6 (gambar AI): menunggu Gelombang 1
+> **Status:** ✅ Tahap 0–8 selesai · 🟡 Tahap 9: video, Shorts, thumbnail & paket unggah menunggu persetujuan
 
 ## Ringkasan
 
@@ -71,7 +71,7 @@ Pria Tanpa Zaman menggulir layar ponsel di kamar gelap; banyak pesan, banyak ken
 - [x] 4 · Desain karakter → `character-design.md`
 - [x] 5 · Storyboard + paket prompt → `storyboard.md`, `image-prompts.md`
 - [x] 5b · 2 Shorts → `shorts.md`
-- [ ] 6 · Gambar AI → `images/` ← **sekarang** (Gelombang 1: R1, R2, R3)
-- [ ] 7 · Voice-over → `voice-over/001-giacomo-casanova/audio/`
-- [ ] 8 · Animasi → `remotion/`
-- [ ] 9 · Render & publikasi
+- [x] 6 · Gambar AI → `images/` (25/25)
+- [x] 7 · Voice-over → `voice-over/001-giacomo-casanova/audio/` (9 bab, Google AI Studio)
+- [x] 8 · Animasi → `remotion/` (video 5:50 + 2 Shorts + thumbnail)
+- [ ] 9 · Render & publikasi → paket unggah di `youtube.md` ← **sekarang** (menunggu persetujuan & unggah)

@@ -28,3 +28,11 @@ if (existsSync(fonts)) {
   cpSync(fonts, join(pub, 'fonts'), {recursive: true});
   console.log('synced assets/fonts');
 }
+
+// Licensed music is kept local only (never committed): assets/music -> public/music-local
+const musicDir = join(root, 'assets', 'music');
+if (existsSync(musicDir)) {
+  mkdirSync(join(pub, 'music-local'), {recursive: true});
+  cpSync(musicDir, join(pub, 'music-local'), {recursive: true});
+  console.log('synced assets/music (local only)');
+}
