@@ -9,6 +9,7 @@
 3. Isi brief:
    - Tokoh, masa hidup, peran.
    - Tema (dari pemilik proyek) dan **pertanyaan utama** episode.
+   - **Pilar** dari `brand/pilar-pria-sejati.md` dan **jenis episode**: teladan atau peringatan.
    - **Kandidat puncak cerita**: satu peristiwa nyata paling dramatis yang menguji tema.
    - **Kandidat 3–4 musuh batin/pelajaran** yang cocok dengan tokoh.
    - Risiko: apakah sumber sejarahnya cukup kuat? Ada isu sensitif?

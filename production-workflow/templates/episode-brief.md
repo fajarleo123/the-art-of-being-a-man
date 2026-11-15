@@ -8,6 +8,9 @@
 |---|---|
 | Tokoh | <nama>, <tahun lahir–wafat>, <peran> |
 | Tema | <tema dari pemilik proyek> |
+| Pilar | <salah satu dari 7 pilar di `brand/pilar-pria-sejati.md`> |
+| Jenis episode | Teladan / Peringatan |
+| Boleh jualan? | Episode 001–005: **tidak** · 006 dst.: ajakan halus |
 | Pertanyaan utama | <pertanyaan yang dijawab episode ini> |
 | Durasi target | 5 menit |
 | Rasio | 16:9 (+ Shorts 9:16) |

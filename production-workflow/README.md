@@ -130,12 +130,13 @@ voice-over/NNN-nama-tokoh/
 
 ## 🧭 Prinsip Tetap Channel
 
-1. **Pelajaran hidup, bukan biografi.** Sejarah adalah cermin bagi pria hari ini.
+1. **Pelajaran hidup, bukan biografi.** Sejarah adalah cermin bagi pria hari ini. Porsi isi: **±55–60% pelajaran, ±40–45% kisah**. Setiap episode membahas **satu pilar** dari `brand/pilar-pria-sejati.md` (teladan atau peringatan).
 2. **Jujur pada sejarah.** Setiap fakta diberi label (✅ / 📜 / ⚠️); mitos tidak disajikan sebagai fakta.
 3. **Narasi dewasa, filosofis, emosional, sinematik.** Bahasa Indonesia, tanpa klise motivasi.
 4. **Gaya visual tetap.** Selalu mengikuti `master-style/`.
 5. **Tanpa kekerasan grafis.** Kematian dan kekerasan disampaikan lewat simbol.
-6. **Gratis dulu.** Tidak ada layanan berbayar atau cloud (AWS, dll.) tanpa persetujuan pemilik proyek.
+6. **Tanpa jualan di episode 001–005.** Hanya ajakan subscribe/komentar. Ajakan halus ke e-book baru boleh mulai episode 006.
+7. **Gratis dulu.** Tidak ada layanan berbayar atau cloud (AWS, dll.) tanpa persetujuan pemilik proyek.
 
 ---
 

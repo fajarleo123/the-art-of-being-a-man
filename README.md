@@ -28,6 +28,7 @@ Detail lengkap ada di folder `master-style/`.
 the-art-of-being-a-man/
 ├── README.md                  ← File ini (gambaran umum proyek)
 ├── CLAUDE.md                  ← Instruksi tetap untuk Claude
+├── brand/                     ← Kerangka 7 pilar pria sejati + rencana episode & e-book
 ├── production-workflow/       ← SOP produksi + template episode baru
 ├── master-style/              ← "Kitab aturan" gaya visual seluruh channel
 │   ├── visual-guide.md        ← Aturan ilustrasi, komposisi, tekstur
@@ -46,6 +47,7 @@ the-art-of-being-a-man/
 
 | Folder | Fungsi | Status |
 |---|---|---|
+| `brand/` | **Kerangka 7 pilar pria sejati**: dasar setiap episode dan e-book, rencana episode awal, dan aturan jualan (episode 001–005 tanpa jualan). | 🟡 Draf |
 | `production-workflow/` | **SOP produksi permanen**: 10 tahap dari brief sampai render, gerbang persetujuan, formula episode 5 menit, dan template dokumen. Episode baru cukup dimulai dengan nama tokoh + tema. | ✅ Siap |
 | `master-style/` | Panduan gaya yang **wajib diikuti** semua episode, supaya channel punya identitas visual yang konsisten. | ✅ Siap |
 | `episodes/` | Tempat kerja per episode: konsep, naskah, daftar adegan (storyboard). Format nama: `NNN-nama-tokoh`. | ✅ Episode 001 dimulai |

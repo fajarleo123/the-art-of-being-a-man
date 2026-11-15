@@ -12,6 +12,11 @@
 4. Isi **peta waktu** (detik + target kata per bab).
 5. Untuk setiap bab: tabel *Pergulatan modern → Kisah → Prinsip → Penerapan*, kalimat kunci, arahan visual singkat, dan arahan audio.
 6. Usulkan **judul, subjudul, teks thumbnail, dan 3–4 ide Shorts**.
+7. Tentukan **ajakan penutup** (CTA): episode 001–005 hanya subscribe/komentar; mulai 006 boleh ajakan halus ke e-book.
+
+## Porsi isi (fokus pelajaran)
+- Setiap bab **dibuka** dengan pergulatan pria modern dan **ditutup** dengan penerapan yang bisa dilakukan hari itu.
+- Kisah tokoh adalah **bukti** pelajaran: ±40–45% isi. Pelajaran & renungan: ±55–60%.
 
 ## Panduan hook
 - Dibuka dengan **pergulatan pria modern** (memakai Pria Tanpa Zaman), bukan dengan tanggal sejarah.
