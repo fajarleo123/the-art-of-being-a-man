@@ -3,7 +3,7 @@
 > **Pria Paling Memikat di Eropa yang Akhirnya Sendirian**
 > *Pelajaran tentang Pesona dan Karakter*
 >
-> **Status:** 🟡 Draf 1 — menunggu persetujuan
+> **Status:** ✅ Disetujui
 > **Durasi:** 5:00 · **Adegan:** 37 · **Gambar AI:** 25 · **Rasio:** 16:9 · **30 fps**
 > **Acuan:** `voice-over/001-giacomo-casanova/script.md` (narasi, dikunci) ·
 > `image-prompts.md` (prompt) · `character-design.md` · `master-style/`

@@ -1,6 +1,6 @@
 # Paket Prompt Siap Tempel — Episode 001: Giacomo Casanova
 
-> **Status:** 🟡 Draf — menunggu persetujuan
+> **Status:** ✅ Disetujui
 > **Gaya:** Campuran (Mode Poster + 2 Close-up) · lihat `master-style/visual-guide.md`
 > **Total gambar:** **25** (3 referensi + 20 poster + 2 close-up)
 > **Dipakai di adegan:** lihat `storyboard.md`
