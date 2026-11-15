@@ -1,6 +1,6 @@
 # Desain Karakter — Episode 001: Giacomo Casanova
 
-> **Status:** 🟡 Draf 1 — menunggu persetujuan
+> **Status:** ✅ Disetujui
 > **Acuan gaya:** `master-style/visual-guide.md` (versi 2, gaya campuran) · `master-style/color-palette.md`
 > **Acuan fakta:** `research.md` · **Acuan adegan:** `script-outline.md`, `voice-over/001-giacomo-casanova/script.md`
 > **Pria Tanpa Zaman:** desain tetap channel di `episodes/004-marcus-aurelius/character-design.md` bagian 0b
