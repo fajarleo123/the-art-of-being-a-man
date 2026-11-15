@@ -1,6 +1,6 @@
 # Shorts — Episode 001: Giacomo Casanova
 
-> **Status:** 🟡 Draf 1 — menunggu persetujuan
+> **Status:** ✅ Disetujui
 > **Jumlah:** 2 Shorts · **Format:** 9:16 (1080×1920) · 30 fps · maks. 60 detik
 > **Sumber:** potongan dari video panjang. **Tanpa gambar baru dan tanpa rekaman suara baru.**
 
