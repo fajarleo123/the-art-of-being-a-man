@@ -20,10 +20,18 @@ Suara AI membaca setiap potongan secara terpisah, jadi potongan pendek (per adeg
 2. Buat, dengarkan, dan unduh tiap bab; ulangi bab yang salah ucap.
 3. Upload ke `voice-over/NNN-nama-tokoh/audio/`.
 
-## Tugas Claude setelah rekaman
-1. Mengukur durasi setiap file.
-2. Mendeteksi titik jeda dan memotong per adegan sesuai storyboard.
-3. Memperbarui durasi adegan di storyboard; durasi video **mengikuti rekaman**.
+## Tugas Claude setelah rekaman (otomatis)
+1. Simpan file asli di `voice-over/NNN-nama-tokoh/audio/` dengan nama yang benar.
+2. Pindahkan teks narasi per adegan ke `remotion/src/episodes/epNNN/narration.json` (cek kata per kata dengan naskah yang dikunci).
+3. Jalankan alat suara:
+   ```bash
+   node scripts/voice.mjs NNN-nama-tokoh src/episodes/epNNN/narration.json src/episodes/epNNN/timing.json 1.11 0.65
+   ```
+   Alat ini merapikan suara (tempo, jeda, kehangatan, volume −16 LUFS), mendeteksi jeda, dan menaruh setiap batas kalimat & adegan **tepat di jeda**.
+4. Kembalikan jeda dramatis (`[jeda panjang]` di naskah) lewat `holdAfter` di file episode.
+5. Render; durasi video **mengikuti rekaman**.
+
+**Catatan dari episode 001:** suara Google AI Studio membaca ±120 kata/menit (lebih pelan dari target 130). Tempo 1.11 mengembalikannya ke ±130 tanpa terdengar terburu-buru.
 
 ## QC
 - [ ] Suara sama di semua bab; nama asing diucapkan benar.

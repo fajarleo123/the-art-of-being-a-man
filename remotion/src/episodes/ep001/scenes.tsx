@@ -10,6 +10,11 @@ import {FULL} from '../../components/KenBurns';
 import {MapRoute} from '../../components/MapRoute';
 import {SceneSpec} from '../../engine/Timeline';
 import {colors} from '../../theme';
+import narration from './narration.json';
+
+/** Narration lines for a scene (from narration.json, copied from the locked script). */
+const lines = (id: string): string[] =>
+  narration.chapters.flatMap((c) => c.scenes).find((s) => s.id === id)?.lines ?? [];
 
 const img = (name: string) => `001-giacomo-casanova/images/${name}`;
 const I = {
@@ -72,10 +77,7 @@ export const EP001_SCENES: SceneSpec[] = [
     sepia: 0.55,
     glows: [{x: 0.025, y: 0.2, radius: 60, intensity: 0.6}],
     particles: [{kind: 'dust', count: 25}],
-    captions: [
-      'Ia lahir di Venesia, dari sepasang aktor keliling. Ia dibesarkan neneknya.',
-      'Menurut memoarnya, ia merasa dititipkan, lalu dilupakan.',
-    ],
+    captions: lines('S07'),
   },
   {
     id: 'S08',
@@ -89,10 +91,7 @@ export const EP001_SCENES: SceneSpec[] = [
       {x: 0.925, y: 0.13, radius: 80, flicker: 0.15},
     ],
     particles: [{kind: 'dust', count: 30}],
-    captions: [
-      'Mungkin sejak itulah ia belajar satu hal: membuat orang menyukainya.',
-      'Tapi membuat orang datang… berbeda dengan membuat mereka tinggal.',
-    ],
+    captions: lines('S08'),
   },
   // ── BAB 3 — TOPENG ──
   {
@@ -104,11 +103,7 @@ export const EP001_SCENES: SceneSpec[] = [
     to: {x: 0.68, y: 0.45, scale: 1.12},
     chapter: 'I · TOPENG',
     glows: [{x: 0.93, y: 0.58, radius: 160, intensity: 0.5}],
-    captions: [
-      'Musuh pertama: topeng.',
-      'Kita mengenalnya. Pura-pura menyukai apa yang ia sukai. Pura-pura lebih mapan.',
-      'Pura-pura tak pernah terluka. Semua demi terlihat menarik.',
-    ],
+    captions: lines('S09'),
   },
   {
     id: 'S10',
@@ -123,11 +118,7 @@ export const EP001_SCENES: SceneSpec[] = [
       {x: 0.77, y: 0.5, radius: 70},
     ],
     particles: [{kind: 'dust', count: 30}],
-    captions: [
-      'Casanova hidup di Venesia, kota karnaval dan topeng. Dan ia memakai semuanya.',
-      'Calon pendeta. Prajurit. Pemain biola.',
-      'Bahkan "ahli ilmu gaib" bagi seorang senator.',
-    ],
+    captions: lines('S10'),
   },
   {
     id: 'S11',
@@ -136,7 +127,7 @@ export const EP001_SCENES: SceneSpec[] = [
     from: {x: 0.645, y: 0.4, scale: 2.2},
     to: {x: 0.645, y: 0.4, scale: 2.3},
     glows: [{x: 0.77, y: 0.5, radius: 70}],
-    captions: ['Setiap topeng membuatnya diterima. Tak satu pun membuatnya dikenal.'],
+    captions: lines('S11'),
   },
   {
     id: 'S12',
@@ -146,7 +137,7 @@ export const EP001_SCENES: SceneSpec[] = [
     from: {x: 0.62, y: 0.4, scale: 1.55},
     to: {x: 0.62, y: 0.4, scale: 1.62},
     glows: [{x: 0.93, y: 0.58, radius: 160, intensity: 0.6}],
-    captions: ['Wanita yang tepat tidak jatuh cinta pada topengmu. Ia ingin melihat wajah di baliknya.'],
+    captions: lines('S12'),
   },
   // ── BAB 4 — HAUS AKAN YANG BARU ──
   {
@@ -162,10 +153,7 @@ export const EP001_SCENES: SceneSpec[] = [
       {x: 0.4, y: 0.65, radius: 110, color: 'rgba(190,214,232,0.5)', intensity: 0.6, flicker: 0.03},
     ],
     particles: [{kind: 'rain', count: 40, area: {x: 0.22, y: 0.02, w: 0.75, h: 0.48}, opacity: 0.5}],
-    captions: [
-      'Musuh kedua: haus akan yang baru.',
-      'Ketika hubungan mulai terasa biasa, ada suara yang berbisik: mungkin ada yang lebih baik di luar sana.',
-    ],
+    captions: lines('S13'),
   },
   {
     id: 'S14',
@@ -178,10 +166,7 @@ export const EP001_SCENES: SceneSpec[] = [
       {x: 0.36, y: 0.55, radius: 110, flicker: 0.15},
       {x: 0.86, y: 0.1, radius: 70, flicker: 0.1},
     ],
-    captions: [
-      'Casanova selalu mendengarkan suara itu. Memoarnya mencatat sekitar seratus dua puluh nama.',
-      'Dan ia selalu pergi, tepat ketika segalanya mulai menjadi biasa.',
-    ],
+    captions: lines('S14'),
   },
   {
     id: 'S15',
@@ -195,7 +180,7 @@ export const EP001_SCENES: SceneSpec[] = [
       text: 'Memanjakan segala yang menyenangkan indraku selalu menjadi urusan utama dalam hidupku.',
       source: '— Casanova, Histoire de ma vie',
     },
-    captions: ['"Memanjakan segala yang menyenangkan indraku," tulisnya, "selalu menjadi urusan utama dalam hidupku."'],
+    captions: lines('S15'),
   },
   {
     id: 'S16',
@@ -206,7 +191,7 @@ export const EP001_SCENES: SceneSpec[] = [
     brightness: {from: 1, to: 0.45, start: 0.3, end: 0.9},
     glows: [{x: 0.86, y: 0.3, radius: 150, flicker: 0.15}],
     particles: [{kind: 'dust', count: 20}],
-    captions: ['Ia mengenal ratusan awal yang indah. Tapi tak pernah tahu rasanya bertahan sampai akhir.'],
+    captions: lines('S16'),
   },
   // ── BAB 5 — LARI ──
   {
@@ -219,7 +204,7 @@ export const EP001_SCENES: SceneSpec[] = [
     chapter: 'III · LARI',
     blur: {from: 0, to: 0},
     glows: [{x: 0.37, y: 0.84, radius: 140, color: 'rgba(190,214,232,0.5)', intensity: 0.7, flicker: 0.25, seed: 3}],
-    captions: ['Musuh ketiga: lari.', 'Menghilang ketika ada masalah. Diam ketika seharusnya bicara.'],
+    captions: lines('S17'),
   },
   {
     id: 'S18a',
@@ -229,7 +214,7 @@ export const EP001_SCENES: SceneSpec[] = [
     to: {x: 0.6, y: 0.5, scale: 1.25},
     place: 'Venesia, 1756',
     glows: [{x: 0.77, y: 0.08, radius: 120, color: 'rgba(240,220,170,0.5)', intensity: 0.6, flicker: 0.03}],
-    captions: ['Tahun 1756, Casanova kabur dari penjara di bawah atap timah istana Doge.'],
+    captions: lines('S18a'),
   },
   {
     id: 'S18b',
@@ -238,17 +223,14 @@ export const EP001_SCENES: SceneSpec[] = [
     from: FULL,
     to: {x: 0.5, y: 0.55, scale: 1.06},
     glows: [{x: 0.57, y: 0.58, radius: 70, flicker: 0.2}],
-    captions: ['Di tengah malam, ia merayap melintasi atap, lalu menghilang dengan gondola.'],
+    captions: lines('S18b'),
   },
   {
     id: 'S19',
     dur: 12,
     transitionIn: 'dissolve',
     render: EuropeMap,
-    captions: [
-      'Pelarian itu luar biasa. Tapi setelahnya, ia tak bisa pulang ke Venesia selama delapan belas tahun.',
-      'Dan ia terus berlari: dari utang, dari skandal, dari kota ke kota.',
-    ],
+    captions: lines('S19'),
   },
   {
     id: 'S20',
@@ -258,7 +240,7 @@ export const EP001_SCENES: SceneSpec[] = [
     from: FULL,
     wash: {color: colors.paperFaded, blend: 'screen', from: 0, to: 0.55, start: 0.2, end: 0.95},
     glows: [{x: 0.57, y: 0.58, radius: 70, flicker: 0.2}],
-    captions: ['Pria yang selalu kabur… akhirnya tak punya tempat untuk pulang.'],
+    captions: lines('S20'),
   },
   // ── BAB 6 — DITOLAK ──
   {
@@ -273,10 +255,7 @@ export const EP001_SCENES: SceneSpec[] = [
       {x: 0.66, y: 0.22, radius: 110, flicker: 0.12},
       {x: 0.72, y: 0.32, radius: 60, flicker: 0.12, seed: 7},
     ],
-    captions: [
-      'Lalu, di London, keadaan berbalik.',
-      'Seorang wanita muda mempermainkannya, seperti ia dulu mempermainkan banyak hati.',
-    ],
+    captions: lines('S21'),
   },
   {
     id: 'S22',
@@ -286,7 +265,7 @@ export const EP001_SCENES: SceneSpec[] = [
     from: {x: 0.3, y: 0.55, scale: 1.5},
     to: {x: 0.3, y: 0.55, scale: 1.55},
     glows: [{x: 0.14, y: 0.08, radius: 90, flicker: 0.12}],
-    captions: ['Menurut memoarnya, ia begitu hancur hingga berjalan ke tepi Sungai Thames, ingin mengakhiri segalanya.'],
+    captions: lines('S22'),
   },
   {
     id: 'S23',
@@ -296,7 +275,7 @@ export const EP001_SCENES: SceneSpec[] = [
     to: FULL,
     wash: {color: colors.night, from: 0, to: 0.35, start: 0.3},
     glows: [{x: 0.14, y: 0.08, radius: 90, flicker: 0.12}],
-    captions: ['Pria yang terbiasa pergi… akhirnya tahu rasanya ditinggalkan.'],
+    captions: lines('S23'),
   },
   // ── BAB 7 — PUNCAK: HENRIETTE ──
   {
@@ -308,10 +287,7 @@ export const EP001_SCENES: SceneSpec[] = [
     blur: {from: 14, to: 0, start: 0.1, end: 0.6},
     chapter: 'IV · HENRIETTE',
     particles: [{kind: 'dust', count: 35}],
-    captions: [
-      'Tapi luka terdalamnya tidak datang dari wanita yang menolaknya.',
-      'Luka itu datang dari satu wanita yang pernah benar-benar ia cintai.',
-    ],
+    captions: lines('S24'),
   },
   {
     id: 'S25',
@@ -320,10 +296,7 @@ export const EP001_SCENES: SceneSpec[] = [
     from: FULL,
     to: {x: 0.48, y: 0.5, scale: 1.12},
     particles: [{kind: 'dust', count: 45}],
-    captions: [
-      'Ia menyebutnya Henriette. Mereka bepergian bersama.',
-      'Dan untuk pertama kalinya, pria yang selalu pergi… tidak ingin pergi.',
-    ],
+    captions: lines('S25'),
   },
   {
     id: 'S26',
@@ -337,10 +310,7 @@ export const EP001_SCENES: SceneSpec[] = [
       {x: 0.24, y: 0.47, radius: 70, flicker: 0.12},
       {x: 0.26, y: 0.15, radius: 120, flicker: 0.08},
     ],
-    captions: [
-      'Sampai suatu hari, di Jenewa, justru Henriette yang pergi.',
-      'Ia meminta Casanova untuk tidak mencarinya. Dan Casanova menurut.',
-    ],
+    captions: lines('S26'),
   },
   {
     id: 'S27',
@@ -350,7 +320,7 @@ export const EP001_SCENES: SceneSpec[] = [
     from: FULL,
     to: {x: 0.7, y: 0.35, scale: 1.25},
     glows: [{x: 0.16, y: 0.52, radius: 130, flicker: 0.15}],
-    captions: ['Malam itu, dengan berlian di cincinnya, ia menggores kaca jendela kamarnya:'],
+    captions: lines('S27'),
   },
   {
     id: 'S28',
@@ -361,7 +331,7 @@ export const EP001_SCENES: SceneSpec[] = [
     imageLayer: ({durationInFrames}) => (
       <GlassWriting text={HENRIETTE} x={0.74} y={0.36} size={44} mode="write" start={10} length={Math.round(durationInFrames * 0.55)} />
     ),
-    captions: ['"Kau pun akan melupakan Henriette."'],
+    captions: lines('S28'),
   },
   {
     id: 'S29',
@@ -373,7 +343,7 @@ export const EP001_SCENES: SceneSpec[] = [
     place: 'Sepuluh tahun kemudian',
     particles: [{kind: 'dust', count: 45, area: {x: 0.3, y: 0, w: 0.5, h: 0.8}}],
     imageLayer: () => <GlassWriting text={HENRIETTE} x={0.74} y={0.29} size={20} rotate={-8} mode="glint" start={60} length={150} />,
-    captions: ['Sepuluh tahun kemudian, ia kembali ke kamar yang sama.', 'Tulisan itu masih ada di kaca.'],
+    captions: lines('S29'),
   },
   {
     id: 'S30',
@@ -381,7 +351,7 @@ export const EP001_SCENES: SceneSpec[] = [
     image: I.P17,
     from: {x: 0.74, y: 0.3, scale: 2.3},
     imageLayer: () => <GlassWriting text={HENRIETTE} x={0.74} y={0.29} size={20} rotate={-8} mode="glint" start={0} length={220} />,
-    captions: ['Ia menulis bahwa ia akan lupa. Kaca itu membuktikan… ia tidak pernah lupa.'],
+    captions: lines('S30'),
   },
   {
     id: 'S31',
@@ -391,10 +361,7 @@ export const EP001_SCENES: SceneSpec[] = [
     from: {x: 0.85, y: 0.8, scale: 3.2},
     to: {x: 0.85, y: 0.78, scale: 3.3},
     wash: {color: colors.night, from: 0.15, to: 0.3},
-    captions: [
-      'Banyak pria baru ingin bertahan ketika yang dicintainya sudah pergi.',
-      'Jika kamu menemukannya, perjuangkan dia sekarang. Bukan nanti.',
-    ],
+    captions: lines('S31'),
   },
   // ── BAB 8 — PENUTUP ──
   {
@@ -407,7 +374,7 @@ export const EP001_SCENES: SceneSpec[] = [
     place: 'Bohemia, 1798',
     glows: [{x: 0.725, y: 0.36, radius: 60, color: 'rgba(255,200,120,0.8)', intensity: 0.8, flicker: 0.1}],
     particles: [{kind: 'snow', count: 120, opacity: 0.8}],
-    captions: ['Tahun 1798, di sebuah kastil sunyi di Bohemia, seorang pustakawan tua wafat.'],
+    captions: lines('S32'),
   },
   {
     id: 'S33',
@@ -418,7 +385,7 @@ export const EP001_SCENES: SceneSpec[] = [
     to: {x: 0.44, y: 0.58, scale: 1.85},
     glows: [{x: 0.61, y: 0.5, radius: 160, flicker: 0.12, seed: 4}],
     particles: [{kind: 'dust', count: 25}],
-    captions: ['Di masa tuanya, ia menulis ribuan halaman tentang wanita-wanita yang sudah lama pergi.'],
+    captions: lines('S33'),
   },
   {
     id: 'S34',
@@ -427,10 +394,7 @@ export const EP001_SCENES: SceneSpec[] = [
     from: FULL,
     to: {x: 0.6, y: 0.42, scale: 1.08},
     glows: [{x: 0.94, y: 0.62, radius: 220, flicker: 0.12, seed: 5}],
-    captions: [
-      'Ia menghabiskan hidupnya memikat wanita.',
-      'Dan menghabiskan masa tuanya menulis tentang mereka… sendirian.',
-    ],
+    captions: lines('S34'),
   },
   {
     id: 'S35',
@@ -441,7 +405,7 @@ export const EP001_SCENES: SceneSpec[] = [
     to: {x: 0.68, y: 0.45, scale: 1.25},
     particles: [{kind: 'dust', count: 40}],
     glows: [{x: 0.86, y: 0.48, radius: 260, color: 'rgba(255,200,130,0.5)', intensity: 0.6, flicker: 0.02}],
-    captions: ['Pesona membuat wanita tertarik. Tapi hanya karakter yang membuat mereka bertahan.'],
+    captions: lines('S35'),
   },
   {
     id: 'S36',
@@ -453,13 +417,13 @@ export const EP001_SCENES: SceneSpec[] = [
     brightness: {from: 1, to: 1.12},
     particles: [{kind: 'dust', count: 40}],
     glows: [{x: 0.86, y: 0.48, radius: 300, color: 'rgba(255,200,130,0.5)', intensity: 0.75, flicker: 0.02}],
-    captions: ['Jangan menjadi pria yang dikenang banyak wanita.', 'Jadilah pria yang membuat satu wanita tak ingin pergi.'],
+    captions: lines('S36'),
   },
   {
     id: 'S37',
     dur: 6,
     transitionIn: 'page',
     render: ({durationInFrames}) => <BookEnd durationInFrames={durationInFrames} question="Memikat, atau membuatnya tetap tinggal?" />,
-    captions: ['Menurutmu, mana yang lebih sulit: memikat seseorang, atau membuatnya tetap tinggal? Tulis di kolom komentar.'],
+    captions: lines('S37'),
   },
 ];

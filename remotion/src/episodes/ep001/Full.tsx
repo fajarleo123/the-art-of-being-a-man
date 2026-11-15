@@ -1,32 +1,40 @@
-// Episode 001 — full 5-minute video (silent preview until the voice-over arrives).
+// Episode 001 — full video. With `voice` (default) the scenes follow the voice-over
+// timing from timing.json (created by scripts/voice.mjs); without it, storyboard timing is used.
 import React from 'react';
-import {AbsoluteFill, Sequence} from 'remotion';
+import {AbsoluteFill} from 'remotion';
 import {FilmGrain, PaperTexture, Vignette} from '../../components/Overlays';
 import {PreviewBadge} from '../../components/Text';
-import {InkReveal} from '../../components/Transitions';
-import {Timeline, timelineLength} from '../../engine/Timeline';
-import {HookContent, HOOK_PREVIEW_DURATION} from './HookPreview';
+import {applyVoice, VoiceTiming} from '../../engine/applyVoice';
+import {SceneSpec, Timeline, timelineLength} from '../../engine/Timeline';
+import {HOOK_SCENES} from './hookScenes';
 import {EP001_SCENES} from './scenes';
+import timing from './timing.json';
 
-const INK = 30; // S06 → S07 ink transition (S07 data includes these frames)
-const REST_START = HOOK_PREVIEW_DURATION - INK;
+// S07 carries one extra second in the storyboard version for the S06→S07 ink overlap;
+// with voice timing the overlap is handled by the engine, so drop it there.
+const storyboardScenes: SceneSpec[] = [
+  ...HOOK_SCENES,
+  ...EP001_SCENES.map((s) => (s.id === 'S07' ? {...s, dur: s.dur - 1} : s)),
+];
 
-export const EP001_DURATION = REST_START + timelineLength(EP001_SCENES);
+export const EP001_VOICED: SceneSpec[] = applyVoice(storyboardScenes, timing as VoiceTiming, {
+  // "[jeda panjang]" moments from the script, restored after the voice clean-up
+  holdAfter: {S02: 0.8, S03: 0.6, S05: 0.5, S28: 1.4, S30: 0.5, S34: 1.0, S36: 0.5},
+  chapterTail: 0.4,
+  tailAfter: {S05: 0.8, S31: 1.2, S37: 2.5},
+});
+export const EP001_STORYBOARD = storyboardScenes;
 
-export const Ep001Full: React.FC<{preview?: boolean}> = ({preview = true}) => (
+export const EP001_DURATION = timelineLength(EP001_VOICED);
+export const EP001_SILENT_DURATION = timelineLength(EP001_STORYBOARD);
+
+export const Ep001Full: React.FC<{voice?: boolean; badge?: string}> = ({voice = true, badge}) => (
   <AbsoluteFill style={{backgroundColor: '#000'}}>
-    <Sequence durationInFrames={HOOK_PREVIEW_DURATION} name="Hook S01–S06">
-      <HookContent endFade={false} />
-    </Sequence>
-    <Sequence from={REST_START} name="S07–S37">
-      <InkReveal length={INK} x={40} y={55}>
-        <Timeline scenes={EP001_SCENES} />
-      </InkReveal>
-    </Sequence>
+    <Timeline scenes={voice ? EP001_VOICED : EP001_STORYBOARD} />
     {/* channel-wide finishing layers */}
     <PaperTexture />
     <FilmGrain />
     <Vignette />
-    {preview ? <PreviewBadge label="PRATINJAU · TANPA SUARA" /> : null}
+    {badge ? <PreviewBadge label={badge} /> : null}
   </AbsoluteFill>
 );

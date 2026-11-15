@@ -1,7 +1,7 @@
 // Generic scene engine: turns a list of scene descriptions (from a storyboard)
 // into a timeline. Reused by every episode.
 import React from 'react';
-import {AbsoluteFill, Easing, interpolate, Sequence, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Audio, Easing, interpolate, Sequence, staticFile, useCurrentFrame} from 'remotion';
 import {ChapterTitle, QuoteCard} from '../components/Cards';
 import {FULL, KenBurns, View} from '../components/KenBurns';
 import {FadeEdges, Flash, Glow, Wash} from '../components/Overlays';
@@ -14,6 +14,8 @@ export type TransitionIn = 'cut' | 'dissolve' | 'ink' | 'fade' | 'flash' | 'page
 export type GlowSpec = {x: number; y: number; radius: number; color?: string; intensity?: number; flicker?: number; seed?: number};
 export type ParticleSpec = {kind: 'dust' | 'snow' | 'embers' | 'rain'; count: number; area?: {x: number; y: number; w: number; h: number}; opacity?: number};
 export type Ramp = {from: number; to: number; start?: number; end?: number};
+export type TimedLine = {text: string; from: number; to: number};
+export type LayerProps = {durationInFrames: number; captionTimes?: TimedLine[]};
 
 export type SceneSpec = {
   id: string;
@@ -39,12 +41,18 @@ export type SceneSpec = {
   chapter?: string;
   place?: string;
   quote?: {text: string; source: string};
-  /** Narration lines (temporary on-screen text until the voice-over exists). */
+  /** Narration lines (shown as subtitles). */
   captions?: string[];
+  /** Exact subtitle times in FRAMES relative to the scene start (from the voice-over). */
+  captionTimes?: TimedLine[];
+  /** Slice of a voice-over file played by this scene (seconds in the file). */
+  audio?: {src: string; from: number; to: number};
+  /** Hide subtitles (e.g. when a quote card or the scene itself shows the text). */
+  hideCaptions?: boolean;
   /** Extra drawing attached to the picture (image space). */
-  imageLayer?: React.FC<{durationInFrames: number}>;
+  imageLayer?: React.FC<LayerProps>;
   /** Extra drawing on top of the screen (screen space). */
-  screenLayer?: React.FC<{durationInFrames: number}>;
+  screenLayer?: React.FC<LayerProps>;
   /** Replaces the picture entirely (map, book…). */
   render?: React.FC<{durationInFrames: number}>;
 };
@@ -112,20 +120,22 @@ const SceneView: React.FC<{scene: SceneSpec; durationInFrames: number; nextTrans
               seed={g.seed ?? i + 1}
             />
           ))}
-          {ImageLayer ? <ImageLayer durationInFrames={dur} /> : null}
+          {ImageLayer ? <ImageLayer durationInFrames={dur} captionTimes={scene.captionTimes} /> : null}
         </KenBurns>
       ) : null}
       {scene.particles?.map((p, i) => (
         <Particles key={i} kind={p.kind} count={p.count} area={p.area} opacity={p.opacity} seed={`${scene.id}-${i}`} />
       ))}
       {scene.wash ? <Wash color={scene.wash.color} opacity={washO} blend={scene.wash.blend} /> : null}
-      {ScreenLayer ? <ScreenLayer durationInFrames={dur} /> : null}
+      {ScreenLayer ? <ScreenLayer durationInFrames={dur} captionTimes={scene.captionTimes} /> : null}
       {scene.place ? <PlaceLabel text={scene.place} from={scene.chapter ? 70 : 6} to={(scene.chapter ? 70 : 6) + 100} /> : null}
       {scene.quote ? <QuoteCard text={scene.quote.text} source={scene.quote.source} from={6} to={dur - 4} /> : null}
       {scene.chapter ? <ChapterTitle text={scene.chapter} /> : null}
-      {scene.captions && !scene.quote
-        ? captionWindows(scene.captions, dur).map((c, i) => <Caption key={i} text={c.text} from={c.from} to={c.to} />)
-        : null}
+      {scene.hideCaptions || scene.quote
+        ? null
+        : (scene.captionTimes ?? (scene.captions ? captionWindows(scene.captions, dur) : [])).map((c, i) => (
+            <Caption key={i} text={c.text} from={c.from} to={c.to} />
+          ))}
       {scene.transitionIn === 'flash' ? <Flash color="#F3D9A4" peakAt={0} length={14} /> : null}
       {nextTransition === 'flash' ? <Flash color="#F3D9A4" peakAt={dur} length={14} /> : null}
       <FadeEdges durationInFrames={dur} fadeIn={scene.transitionIn === 'fade' ? FADE : 0} fadeOut={nextTransition === 'fade' ? FADE : 0} />
@@ -154,7 +164,11 @@ export const Timeline: React.FC<{scenes: SceneSpec[]}> = ({scenes}) => {
   return (
     <AbsoluteFill>
       {items.map(({scene, start, dur, tIn, ov, next, i}) => {
-        const view = <SceneView scene={scene} durationInFrames={dur + ov} nextTransition={next} />;
+        // captions & layers are timed from the nominal scene start; shift by the overlap
+        const timed = scene.captionTimes
+          ? {...scene, captionTimes: scene.captionTimes.map((c) => ({...c, from: c.from + ov, to: c.to + ov}))}
+          : scene;
+        const view = <SceneView scene={timed} durationInFrames={dur + ov} nextTransition={next} />;
         let content: React.ReactNode = view;
         if (ov > 0 && tIn === 'dissolve') content = <FadeIn length={ov}>{view}</FadeIn>;
         if (ov > 0 && tIn === 'ink') content = <InkReveal length={ov}>{view}</InkReveal>;
@@ -170,6 +184,15 @@ export const Timeline: React.FC<{scenes: SceneSpec[]}> = ({scenes}) => {
             style={{zIndex: turnsAway ? 1000 - i + 500 : i}}
           >
             {content}
+            {scene.audio ? (
+              <Sequence from={ov} layout="none" name={`${scene.id} voice`}>
+                <Audio
+                  src={staticFile(scene.audio.src)}
+                  trimBefore={Math.round(scene.audio.from * FPS)}
+                  durationInFrames={Math.max(1, Math.round((scene.audio.to - scene.audio.from) * FPS))}
+                />
+              </Sequence>
+            ) : null}
           </Sequence>
         );
       })}
