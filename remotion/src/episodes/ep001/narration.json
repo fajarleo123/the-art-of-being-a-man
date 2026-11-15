@@ -1,0 +1,299 @@
+{
+  "episode": "001-giacomo-casanova",
+  "chapters": [
+    {
+      "audio": "001-bab-0-hook.wav",
+      "scenes": [
+        {
+          "id": "S01",
+          "lines": [
+            "Hari ini, seorang pria bisa mengenal ratusan wanita hanya dari layar di tangannya."
+          ]
+        },
+        {
+          "id": "S02",
+          "lines": [
+            "Banyak yang membalas pesannya.",
+            "Banyak yang tertawa pada leluconnya.",
+            "Banyak yang tertarik pada pesonanya."
+          ]
+        },
+        {
+          "id": "S03",
+          "lines": [
+            "Tapi ketika malam datang… tak satu pun tinggal."
+          ]
+        },
+        {
+          "id": "S04",
+          "lines": [
+            "Hampir tiga ratus tahun lalu, ada seorang pria yang mungkin paling memikat di seluruh Eropa."
+          ]
+        },
+        {
+          "id": "S05",
+          "lines": [
+            "Dan ia menghabiskan akhir hidupnya… sendirian."
+          ]
+        }
+      ]
+    },
+    {
+      "audio": "001-bab-1-judul.wav",
+      "scenes": [
+        {
+          "id": "S06",
+          "lines": [
+            "Namanya Giacomo Casanova.",
+            "Dan ini kisah tentang apa yang tidak bisa dibeli oleh pesona."
+          ]
+        }
+      ]
+    },
+    {
+      "audio": "001-bab-2-masa-kecil.wav",
+      "scenes": [
+        {
+          "id": "S07",
+          "lines": [
+            "Ia lahir di Venesia, dari sepasang aktor keliling. Ia dibesarkan neneknya.",
+            "Menurut memoarnya, ia merasa dititipkan, lalu dilupakan."
+          ]
+        },
+        {
+          "id": "S08",
+          "lines": [
+            "Mungkin sejak itulah ia belajar satu hal: membuat orang menyukainya.",
+            "Tapi membuat orang datang… berbeda dengan membuat mereka tinggal."
+          ]
+        }
+      ]
+    },
+    {
+      "audio": "001-bab-3-topeng.wav",
+      "scenes": [
+        {
+          "id": "S09",
+          "lines": [
+            "Musuh pertama: topeng.",
+            "Kita mengenalnya. Pura-pura menyukai apa yang ia sukai. Pura-pura lebih mapan.",
+            "Pura-pura tak pernah terluka. Semua demi terlihat menarik."
+          ]
+        },
+        {
+          "id": "S10",
+          "lines": [
+            "Casanova hidup di Venesia, kota karnaval dan topeng. Dan ia memakai semuanya.",
+            "Calon pendeta. Prajurit. Pemain biola.",
+            "Bahkan \"ahli ilmu gaib\" bagi seorang senator."
+          ]
+        },
+        {
+          "id": "S11",
+          "lines": [
+            "Setiap topeng membuatnya diterima. Tak satu pun membuatnya dikenal."
+          ]
+        },
+        {
+          "id": "S12",
+          "lines": [
+            "Wanita yang tepat tidak jatuh cinta pada topengmu. Ia ingin melihat wajah di baliknya."
+          ]
+        }
+      ]
+    },
+    {
+      "audio": "001-bab-4-haus-akan-yang-baru.wav",
+      "scenes": [
+        {
+          "id": "S13",
+          "lines": [
+            "Musuh kedua: haus akan yang baru.",
+            "Ketika hubungan mulai terasa biasa, ada suara yang berbisik: mungkin ada yang lebih baik di luar sana."
+          ]
+        },
+        {
+          "id": "S14",
+          "lines": [
+            "Casanova selalu mendengarkan suara itu. Memoarnya mencatat sekitar seratus dua puluh nama.",
+            "Dan ia selalu pergi, tepat ketika segalanya mulai menjadi biasa."
+          ]
+        },
+        {
+          "id": "S15",
+          "lines": [
+            "\"Memanjakan segala yang menyenangkan indraku,\" tulisnya, \"selalu menjadi urusan utama dalam hidupku.\""
+          ]
+        },
+        {
+          "id": "S16",
+          "lines": [
+            "Ia mengenal ratusan awal yang indah. Tapi tak pernah tahu rasanya bertahan sampai akhir."
+          ]
+        }
+      ]
+    },
+    {
+      "audio": "001-bab-5-lari.wav",
+      "scenes": [
+        {
+          "id": "S17",
+          "lines": [
+            "Musuh ketiga: lari.",
+            "Menghilang ketika ada masalah. Diam ketika seharusnya bicara."
+          ]
+        },
+        {
+          "id": "S18a",
+          "lines": [
+            "Tahun 1756, Casanova kabur dari penjara di bawah atap timah istana Doge."
+          ]
+        },
+        {
+          "id": "S18b",
+          "lines": [
+            "Di tengah malam, ia merayap melintasi atap, lalu menghilang dengan gondola."
+          ]
+        },
+        {
+          "id": "S19",
+          "lines": [
+            "Pelarian itu luar biasa. Tapi setelahnya, ia tak bisa pulang ke Venesia selama delapan belas tahun.",
+            "Dan ia terus berlari: dari utang, dari skandal, dari kota ke kota."
+          ]
+        },
+        {
+          "id": "S20",
+          "lines": [
+            "Pria yang selalu kabur… akhirnya tak punya tempat untuk pulang."
+          ]
+        }
+      ]
+    },
+    {
+      "audio": "001-bab-6-ditolak.wav",
+      "scenes": [
+        {
+          "id": "S21",
+          "lines": [
+            "Lalu, di London, keadaan berbalik.",
+            "Seorang wanita muda mempermainkannya, seperti ia dulu mempermainkan banyak hati."
+          ]
+        },
+        {
+          "id": "S22",
+          "lines": [
+            "Menurut memoarnya, ia begitu hancur hingga berjalan ke tepi Sungai Thames, ingin mengakhiri segalanya."
+          ]
+        },
+        {
+          "id": "S23",
+          "lines": [
+            "Pria yang terbiasa pergi… akhirnya tahu rasanya ditinggalkan."
+          ]
+        }
+      ]
+    },
+    {
+      "audio": "001-bab-7-henriette.wav",
+      "scenes": [
+        {
+          "id": "S24",
+          "lines": [
+            "Tapi luka terdalamnya tidak datang dari wanita yang menolaknya.",
+            "Luka itu datang dari satu wanita yang pernah benar-benar ia cintai."
+          ]
+        },
+        {
+          "id": "S25",
+          "lines": [
+            "Ia menyebutnya Henriette. Mereka bepergian bersama.",
+            "Dan untuk pertama kalinya, pria yang selalu pergi… tidak ingin pergi."
+          ]
+        },
+        {
+          "id": "S26",
+          "lines": [
+            "Sampai suatu hari, di Jenewa, justru Henriette yang pergi.",
+            "Ia meminta Casanova untuk tidak mencarinya. Dan Casanova menurut."
+          ]
+        },
+        {
+          "id": "S27",
+          "lines": [
+            "Malam itu, dengan berlian di cincinnya, ia menggores kaca jendela kamarnya:"
+          ]
+        },
+        {
+          "id": "S28",
+          "lines": [
+            "\"Kau pun akan melupakan Henriette.\""
+          ]
+        },
+        {
+          "id": "S29",
+          "lines": [
+            "Sepuluh tahun kemudian, ia kembali ke kamar yang sama.",
+            "Tulisan itu masih ada di kaca."
+          ]
+        },
+        {
+          "id": "S30",
+          "lines": [
+            "Ia menulis bahwa ia akan lupa. Kaca itu membuktikan… ia tidak pernah lupa."
+          ]
+        },
+        {
+          "id": "S31",
+          "lines": [
+            "Banyak pria baru ingin bertahan ketika yang dicintainya sudah pergi.",
+            "Jika kamu menemukannya, perjuangkan dia sekarang. Bukan nanti."
+          ]
+        }
+      ]
+    },
+    {
+      "audio": "001-bab-8-penutup.wav",
+      "scenes": [
+        {
+          "id": "S32",
+          "lines": [
+            "Tahun 1798, di sebuah kastil sunyi di Bohemia, seorang pustakawan tua wafat."
+          ]
+        },
+        {
+          "id": "S33",
+          "lines": [
+            "Di masa tuanya, ia menulis ribuan halaman tentang wanita-wanita yang sudah lama pergi."
+          ]
+        },
+        {
+          "id": "S34",
+          "lines": [
+            "Ia menghabiskan hidupnya memikat wanita.",
+            "Dan menghabiskan masa tuanya menulis tentang mereka… sendirian."
+          ]
+        },
+        {
+          "id": "S35",
+          "lines": [
+            "Pesona membuat wanita tertarik. Tapi hanya karakter yang membuat mereka bertahan."
+          ]
+        },
+        {
+          "id": "S36",
+          "lines": [
+            "Jangan menjadi pria yang dikenang banyak wanita.",
+            "Jadilah pria yang membuat satu wanita tak ingin pergi."
+          ]
+        },
+        {
+          "id": "S37",
+          "lines": [
+            "Menurutmu, mana yang lebih sulit: memikat seseorang, atau membuatnya tetap tinggal? Tulis di kolom komentar."
+          ]
+        }
+      ]
+    }
+  ]
+}
