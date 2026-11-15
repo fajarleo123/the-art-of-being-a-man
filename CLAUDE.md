@@ -15,6 +15,7 @@ Proyek studio video storytelling sinematik. Pemilik proyek mengelola semuanya
 - Posisi channel: **"Jadilah pria yang layak dicintai, bukan pria yang pandai merayu."** Arah gabungan asmara + karakter, sedikit lebih ke asmara.
 - Setiap episode membahas **satu pilar** dari `brand/pilar-pria-sejati.md`. Porsi: ±60% pelajaran (±60% di antaranya dibingkai lewat asmara & hubungan), ±40% kisah. **Judul dan hook selalu bersudut asmara/daya tarik.**
 - Patuhi **Garis Batas** di `brand/pilar-pria-sejati.md`: tanpa trik merayu, tanpa manipulasi, tanpa merendahkan wanita.
+- **Setiap episode = 1 video panjang (5 menit) + 2 Shorts** (9:16, ≤60 detik), dipotong dari video panjang. Rencana Shorts dibuat di `episodes/NNN-nama-tokoh/shorts.md`.
 - **Episode 001–005: DILARANG jualan.** Jangan menyebut e-book, produk, atau promosi apa pun. Hanya ajakan subscribe/komentar. Mulai episode 006 boleh ajakan halus ke e-book.
 
 ## Dilarang tanpa persetujuan
