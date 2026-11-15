@@ -20,3 +20,9 @@ menyimpan di sini dengan nama sesuai `../image-prompts.md`.
 | P16 | `P16-jendela-jenewa-malam.png` | ✅ Disetujui | Tangan kanan bercincin di kaca berembun, dahi dekat kaca, lilin & topi di meja, danau dan kota di luar. Rambut cokelat gelap ikal (sama dengan P05) |
 | C1 | `C1-closeup-menggores-kaca.png` | ✅ Diterima (catatan) | Close-up sangat kuat; ruangan & pemandangan konsisten dengan P16/P17. ⚠️ Menggores dengan **ujung jari** di kaca berembun, bukan dengan berlian cincin; wajah muda terlihat dari samping (tidak direncanakan, tapi diterima). Tulisan ditambahkan dengan kode di area kaca kosong. Diputuskan pemilik proyek: **dipakai apa adanya** |
 | P17 | `P17-jenewa-sepuluh-tahun.png` | ✅ Disetujui | Kamar yang sama persis dengan P16 (tirai, lukisan, meja, topi), cahaya sore emas, goresan melengkung di kaca, rambut mulai beruban. Kesinambungan sangat baik |
+| P06 | `P06-makan-malam-berdua.png` | ✅ Disetujui | Pria dari belakang sibuk dengan ponsel, wanita menatap jendela berhujan, lilin di antara mereka. Jarak emosional sangat terasa |
+| P07 | `P07-salon-casanova-pergi.png` | ✅ Disetujui | Casanova keluar pintu sambil memegang topi; wanita bergaun hijau tua duduk sendirian menatapnya. Sangat kuat |
+| P08 | `P08-surat-surat-cinta.png` | ✅ Disetujui | Surat bersegel lilin merah, pena bulu, mawar kering, lilin meleleh. Tanpa tulisan terbaca |
+| P09 | `P09-ponsel-pintu-terbuka.png` | ✅ Disetujui (catatan) | Ponsel menampilkan panggilan masuk; pria pergi lewat lorong. ⚠️ Ada teks sangat kecil di atas layar ponsel; akan dikaburkan dengan kode |
+| P10 | `P10-atap-piombi.png` | ✅ Disetujui | Dua pria merayap di atap (satu berkemeja putih), kubah San Marco, laguna, bulan. Tokohnya lebih besar dari rencana, tetap bagus |
+| P11 | `P11-gondola-kabut.png` | ✅ Disetujui (catatan) | Gondola, pria berjubah, lentera, kabut tebal, bulan. ⚠️ Pendayung memakai topi jerami (*boater*) yang baru populer abad ke-19; detail kecil, diterima |
