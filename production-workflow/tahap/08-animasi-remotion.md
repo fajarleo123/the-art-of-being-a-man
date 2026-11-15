@@ -1,7 +1,7 @@
 # Tahap 8 — Animasi (Remotion)
 
-> ⏳ **Status SOP:** rencana. Remotion **belum dipasang**; dibangun sekali
-> saat episode pertama mencapai tahap ini, lalu dipakai ulang untuk semua episode.
+> 🟡 **Status SOP:** Remotion **sudah dipasang** (`remotion/`, lihat `remotion/README.md`).
+> Komponen dasar sudah dibuat saat uji coba hook episode 001; akan dilengkapi saat video penuh dirakit.
 
 **Hasil:** proyek di `remotion/` + data adegan per episode.
 

@@ -1,0 +1,22 @@
+{
+  "name": "the-art-of-being-a-man-video",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Remotion project for The Art of Being a Man episodes",
+  "scripts": {
+    "sync-assets": "node scripts/sync-assets.mjs",
+    "studio": "npm run sync-assets && remotion studio src/index.ts",
+    "render:hook-001": "npm run sync-assets && remotion render src/index.ts Ep001-HookPreview out/ep001-hook-preview.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
