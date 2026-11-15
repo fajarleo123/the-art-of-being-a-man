@@ -2,7 +2,7 @@
 
 > **Status:** 🟡 Draf — menunggu persetujuan
 > **Acuan:** `master-style/` · `research.md` · `script-outline.md`
-> **Pria Tanpa Zaman:** pakai desain tetap di `episodes/001-marcus-aurelius/character-design.md` bagian 3.
+> **Pria Tanpa Zaman:** pakai desain tetap di `episodes/004-marcus-aurelius/character-design.md` bagian 3.
 > **Blok gaya:** `master-style/visual-guide.md` bagian 10 (`[GAYA-POSTER]`, `[GAYA-CLOSEUP]`, `[HINDARI]`).
 
 ## 0. Kontras Desain

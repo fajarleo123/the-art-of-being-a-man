@@ -1,11 +1,11 @@
-# Naskah Narasi — Episode 001
+# Naskah Narasi — Episode 004
 
 > **Pria yang Berhasil Menguasai Dirinya Sendiri**
 > *Pelajaran Pengendalian Diri dari Marcus Aurelius*
 >
 > **Durasi:** ±5 menit (±550 kata ≈ 4:15 bicara + ±35 detik jeda & musik) · **Bahasa:** Indonesia · **Status:** 🟡 Draf 1 — menunggu persetujuan
-> **Kerangka & arahan visual:** `episodes/001-marcus-aurelius/script-outline.md`
-> **Dasar fakta:** `episodes/001-marcus-aurelius/research.md`
+> **Kerangka & arahan visual:** `episodes/004-marcus-aurelius/script-outline.md`
+> **Dasar fakta:** `episodes/004-marcus-aurelius/research.md`
 
 ---
 

@@ -6,7 +6,7 @@ Tempat naskah narasi dan file rekaman suara.
 
 ```
 voice-over/
-└── 001-marcus-aurelius/
+└── 004-marcus-aurelius/
     ├── script.md       ← Naskah narasi final
     └── audio/          ← File rekaman (.wav / .mp3)
 ```

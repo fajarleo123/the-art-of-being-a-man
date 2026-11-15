@@ -1,7 +1,7 @@
 # Tahap 8 — Animasi (Remotion)
 
 > ⏳ **Status SOP:** rencana. Remotion **belum dipasang**; dibangun sekali
-> saat episode 001 mencapai tahap ini, lalu dipakai ulang untuk semua episode.
+> saat episode pertama mencapai tahap ini, lalu dipakai ulang untuk semua episode.
 
 **Hasil:** proyek di `remotion/` + data adegan per episode.
 

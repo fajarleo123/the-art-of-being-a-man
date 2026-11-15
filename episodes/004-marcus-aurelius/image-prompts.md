@@ -1,4 +1,4 @@
-# Paket Prompt Siap Tempel — Episode 001: Marcus Aurelius
+# Paket Prompt Siap Tempel — Episode 004: Marcus Aurelius
 
 > **Status:** 🟡 Draf — menunggu persetujuan
 > **Gaya:** Campuran (Mode Poster + 3 Close-up) · lihat `master-style/visual-guide.md`
@@ -14,7 +14,7 @@
 5. Hasil pertama belum pas? Minta perbaikan singkat, misalnya:
    *"Keep everything the same, but make the cloak deep burgundy, not bright red."*
 6. Simpan gambar terpilih, lalu ganti namanya sesuai kolom **"Nama file"**.
-7. Upload ke GitHub di folder `episodes/001-marcus-aurelius/images/`
+7. Upload ke GitHub di folder `episodes/004-marcus-aurelius/images/`
    (Chrome → Add file → Upload files; aktifkan **Situs desktop** bila tombol tidak muncul).
 8. Kabari Claude. Gambar akan dicek terhadap kolom **"Cek wajib"** sebelum dipakai.
 

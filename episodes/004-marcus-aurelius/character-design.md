@@ -1,4 +1,4 @@
-# Desain Karakter — Episode 001: Marcus Aurelius
+# Desain Karakter — Episode 004: Marcus Aurelius
 
 > **Status:** 🟡 Revisi 2 (gaya campuran) — menunggu persetujuan · Revisi 1 sudah ✅ disetujui
 > **Acuan gaya:** `master-style/visual-guide.md` (versi 2), `master-style/color-palette.md`

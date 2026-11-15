@@ -35,7 +35,8 @@ the-art-of-being-a-man/
 │   ├── animation-rules.md     ← Aturan gerak kamera, parallax, transisi
 │   └── color-palette.md       ← Daftar warna resmi + kode HEX
 ├── episodes/                  ← Satu folder per episode
-│   └── 001-marcus-aurelius/   ← Episode pertama
+│   ├── 001-giacomo-casanova/  ← Episode 1
+│   └── 004-marcus-aurelius/   ← Episode 4 (tahap 0–5 sudah ada)
 ├── character-library/         ← Lembar karakter tokoh (agar konsisten)
 ├── remotion/                  ← (Nanti) kode animasi video
 ├── voice-over/                ← Naskah narasi & file suara
@@ -50,7 +51,7 @@ the-art-of-being-a-man/
 | `brand/` | **Posisi channel & 8 pilar pria sejati** ("pria yang layak dicintai"): dasar setiap episode dan e-book, garis batas konten, rencana episode, dan aturan jualan (episode 001–005 tanpa jualan). | 🟡 Draf |
 | `production-workflow/` | **SOP produksi permanen**: 10 tahap dari brief sampai render, gerbang persetujuan, formula episode 5 menit, dan template dokumen. Episode baru cukup dimulai dengan nama tokoh + tema. | ✅ Siap |
 | `master-style/` | Panduan gaya yang **wajib diikuti** semua episode, supaya channel punya identitas visual yang konsisten. | ✅ Siap |
-| `episodes/` | Tempat kerja per episode: konsep, naskah, daftar adegan (storyboard). Format nama: `NNN-nama-tokoh`. | ✅ Episode 001 dimulai |
+| `episodes/` | Tempat kerja per episode: konsep, naskah, daftar adegan (storyboard). Format nama: `NNN-nama-tokoh`. | 🟡 001 Casanova dimulai · 004 Marcus sampai storyboard |
 | `character-library/` | Deskripsi fisik, pakaian, dan ekspresi tiap tokoh. Dipakai ulang jika tokoh muncul di beberapa episode. | 📄 Template siap |
 | `remotion/` | Nanti berisi proyek [Remotion](https://www.remotion.dev/) (membuat video dengan kode). **Belum dipasang.** | ⏳ Menunggu |
 | `voice-over/` | Naskah narasi final dan file rekaman suara per episode. | 📄 Panduan siap |

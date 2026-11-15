@@ -1,7 +1,7 @@
 # Tahap 5 — Storyboard
 
 **Hasil:** `episodes/NNN-nama-tokoh/storyboard.md` (dari `templates/storyboard.md`).
-**Contoh lengkap:** `episodes/001-marcus-aurelius/storyboard.md`
+**Contoh lengkap:** `episodes/004-marcus-aurelius/storyboard.md`
 
 ## Langkah
 1. Tentukan **daftar gambar** (target ±25–30): `R` referensi tokoh, `P` Mode Poster, `C` close-up (maks. 4).
@@ -15,7 +15,7 @@
 5. Untuk **setiap adegan** tulis: nomor & waktu · durasi · narasi (salin persis) · **gambar + potongan** · visual · kamera · efek kode · audio · transisi.
 6. Tambahkan **peta pemakaian gambar**, daftar teks di layar, dan **cek kesinambungan**.
 7. Buat **`image-prompts.md`**: prompt **lengkap tanpa kode** (blok gaya + token + deskripsi + `[HINDARI]`), dikelompokkan per **gelombang** (referensi dulu, lalu gambar yang paling sering dipakai). Setiap gambar mencantumkan: dipakai di adegan mana, gambar yang harus dilampirkan, nama file, dan cek wajib.
-   Contoh: `episodes/001-marcus-aurelius/image-prompts.md`
+   Contoh: `episodes/004-marcus-aurelius/image-prompts.md`
 
 ## Aturan kamera & animasi (dari `master-style/animation-rules.md`)
 - Satu gerakan kamera utama per adegan; selalu dengan *easing*.

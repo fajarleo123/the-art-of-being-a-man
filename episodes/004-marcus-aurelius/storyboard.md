@@ -1,11 +1,11 @@
-# Storyboard — Episode 001: Marcus Aurelius
+# Storyboard — Episode 004: Marcus Aurelius
 
 > **Pria yang Berhasil Menguasai Dirinya Sendiri**
 > *Pelajaran Pengendalian Diri dari Marcus Aurelius*
 >
 > **Status:** 🟡 Revisi 2 (gaya campuran) — menunggu persetujuan
 > **Durasi:** 5:00 · **Adegan:** 40 · **Gambar AI:** 30 · **Rasio:** 16:9 · **30 fps**
-> **Acuan:** `voice-over/001-marcus-aurelius/script.md` (narasi, tidak diubah) ·
+> **Acuan:** `voice-over/004-marcus-aurelius/script.md` (narasi, tidak diubah) ·
 > `image-prompts.md` (prompt) · `character-design.md` · `master-style/` (versi 2)
 
 ---

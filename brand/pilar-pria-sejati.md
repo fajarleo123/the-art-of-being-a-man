@@ -1,6 +1,6 @@
 # Kerangka Pilar Pria Sejati
 
-> **Status:** 🟡 Draf 2 — menunggu persetujuan
+> **Status:** ✅ Disetujui (draf 2) · Rencana episode 003 (Don Juan) menunggu keputusan sudut cerita
 > Tulang punggung **channel** dan **e-book** "The Art of Being a Man".
 > Setiap episode membahas satu pilar. E-book nantinya membahas semua pilar secara lengkap.
 
@@ -165,7 +165,7 @@ Ini **hanya usulan**; setiap tokoh tetap melalui tahap brief dan riset.
 | 4. Tanggung Jawab | Ernest Shackleton | — |
 | 5. Integritas | Thomas More | **Giacomo Casanova** (pesona tanpa karakter) |
 | 6. Kebijaksanaan | Sokrates | — |
-| 7. Kesetiaan & Cinta | **B.J. Habibie & Ainun** | Henry VIII |
+| 7. Kesetiaan & Cinta | **B.J. Habibie & Ainun** | Henry VIII · Don Juan (legenda) |
 | 8. Warisan | George Washington (melepas kekuasaan) | Napoleon Bonaparte |
 
 > Catatan Habibie & Ainun: tokoh modern (Habibie wafat 2019) dan keluarganya
@@ -178,10 +178,10 @@ Ini **hanya usulan**; setiap tokoh tetap melalui tahap brief dan riset.
 
 | Episode | Tokoh | Pilar | Jenis | Sudut asmara | Status |
 |---|---|---|---|---|---|
-| **001** | **Giacomo Casanova** | Integritas | Peringatan | Pria paling memikat di Eropa yang akhirnya sendirian | ⏳ Belum dimulai |
-| **002** | B.J. Habibie & Ainun | Kesetiaan & Cinta | Teladan | Pria yang mencintai satu wanita seumur hidupnya (pasangan kontras untuk Casanova) | 💡 Usulan |
-| **003** | Marcus Aurelius | Kendali Diri | Teladan | Pria yang tetap tenang dan memberi rasa aman | 📄 Naskah ada; ditulis ulang ke fokus baru |
-| 004 | *(dipilih nanti)* | | | | |
+| **001** | **Giacomo Casanova** | Integritas | Peringatan | Pria paling memikat di Eropa yang akhirnya sendirian | 🟡 Tahap 0: brief |
+| **002** | **B.J. Habibie & Ainun** | Kesetiaan & Cinta | Teladan | Pria yang mencintai satu wanita seumur hidupnya (kontras dengan Casanova) | ✅ Disetujui, belum dimulai |
+| **003** | **Don Juan** | *(menunggu keputusan sudut cerita)* | Peringatan | Pria yang menaklukkan banyak wanita tanpa pernah mencintai | ⚠️ Tokoh legenda/fiksi: perlu keputusan |
+| **004** | **Marcus Aurelius** | Kendali Diri | Teladan | Pria yang tetap tenang dan memberi rasa aman | 📄 Tahap 0–5 ada; ditulis ulang ke fokus baru |
 | 005 | *(dipilih nanti)* | | | | |
 
 ---

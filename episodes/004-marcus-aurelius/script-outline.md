@@ -1,9 +1,9 @@
-# Kerangka Naskah — Episode 001: Marcus Aurelius
+# Kerangka Naskah — Episode 004: Marcus Aurelius
 
 > **Judul:** *Pria yang Berhasil Menguasai Dirinya Sendiri*
 > **Subjudul:** *Pelajaran Pengendalian Diri dari Marcus Aurelius*
 > **Durasi target:** 5 menit (±650 kata narasi, tempo ±130 kata/menit)
-> **Naskah narasi lengkap:** `voice-over/001-marcus-aurelius/script.md`
+> **Naskah narasi lengkap:** `voice-over/004-marcus-aurelius/script.md`
 > **Status:** ✅ Kerangka disetujui (draf 2)
 > **Dasar fakta:** lihat `research.md` di folder ini
 
@@ -328,6 +328,6 @@ di tebing dari hook, kini **badai telah reda**. Buku ditutup → logo channel.
 
 ## 8. Langkah Berikutnya (setelah disetujui)
 
-1. ✅ **Naskah narasi lengkap** (±650 kata) di `voice-over/001-marcus-aurelius/script.md`
+1. ✅ **Naskah narasi lengkap** (±650 kata) di `voice-over/004-marcus-aurelius/script.md`
 2. Membuat **lembar karakter**: Marcus (muda & tua), Avidius Cassius, Faustina, dan "Pria Tanpa Zaman" (siluet hook)
 3. Membuat **storyboard** per adegan (±35–40 adegan × ±8 detik)

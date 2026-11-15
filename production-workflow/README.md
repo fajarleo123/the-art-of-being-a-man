@@ -1,7 +1,7 @@
 # SOP Produksi — The Art of Being a Man
 
 > **Prosedur standar untuk membuat setiap episode.**
-> Episode 001 (Marcus Aurelius) adalah contoh lengkap yang mengikuti SOP ini.
+> Episode 004 (Marcus Aurelius) adalah contoh lengkap tahap 0–5 yang mengikuti SOP ini.
 
 ---
 
@@ -146,6 +146,6 @@ voice-over/NNN-nama-tokoh/
 |---|---|---|
 | Gaya, gerak, warna | `master-style/` | Tidak berubah antar episode |
 | Blok `[GAYA-POSTER]`, `[GAYA-CLOSEUP]`, `[HINDARI]` | `master-style/visual-guide.md` bagian 10 | Dipakai di semua prompt |
-| Pria Tanpa Zaman | `episodes/001-marcus-aurelius/character-design.md` bagian 0b (`[POSTER PRIA]`) | **Karakter tetap channel**; dipakai di hook & penutup setiap episode |
+| Pria Tanpa Zaman | `episodes/004-marcus-aurelius/character-design.md` bagian 0b (`[POSTER PRIA]`) | **Karakter tetap channel**; dipakai di hook & penutup setiap episode |
 | Transisi halaman buku, kartu judul, kartu kutipan | `remotion/` | Dibangun sekali di tahap 8, dipakai ulang |
 | Musik tema, logo | `assets/` | Dibuat sekali |

@@ -1,7 +1,7 @@
 # Tahap 3 — Naskah Narasi
 
 **Hasil:** `voice-over/NNN-nama-tokoh/script.md` (dari `templates/script.md`).
-**Contoh lengkap:** `voice-over/001-marcus-aurelius/script.md`
+**Contoh lengkap:** `voice-over/004-marcus-aurelius/script.md`
 
 ## Gaya narasi (tetap untuk semua episode)
 - **Dewasa:** seperti pria yang sudah banyak melewati hidup; tidak menggurui.

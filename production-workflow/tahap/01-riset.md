@@ -1,7 +1,7 @@
 # Tahap 1 — Riset
 
 **Hasil:** `episodes/NNN-nama-tokoh/research.md` (dari `templates/research.md`).
-**Contoh lengkap:** `episodes/001-marcus-aurelius/research.md`
+**Contoh lengkap:** `episodes/004-marcus-aurelius/research.md`
 
 ## Langkah
 1. **Profil singkat**: nama, lahir–wafat, peran, karya.

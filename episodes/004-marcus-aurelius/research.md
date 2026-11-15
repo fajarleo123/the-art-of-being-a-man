@@ -1,4 +1,4 @@
-# Riset — Episode 001: Marcus Aurelius
+# Riset — Episode 004: Marcus Aurelius
 
 > **Tema:** *The Power of Self-Control* (Kekuatan Mengendalikan Diri)
 > **Status:** 🟢 Riset selesai (draf 1) — menunggu persetujuan

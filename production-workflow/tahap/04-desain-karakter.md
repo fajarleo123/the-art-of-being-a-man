@@ -1,12 +1,12 @@
 # Tahap 4 — Desain Karakter
 
 **Hasil:** `episodes/NNN-nama-tokoh/character-design.md` (dari `templates/character-design.md`).
-**Contoh lengkap:** `episodes/001-marcus-aurelius/character-design.md`
+**Contoh lengkap:** `episodes/004-marcus-aurelius/character-design.md`
 
 ## Karakter yang dibuat
 - **Tokoh utama** (dengan varian usia bila adegan mencakup rentang waktu panjang).
 - **Tokoh lawan/pendukung** yang muncul di peristiwa puncak (maksimal 1–2).
-- **Pria Tanpa Zaman** **tidak dibuat ulang**; pakai desain dari episode 001.
+- **Pria Tanpa Zaman** **tidak dibuat ulang**; pakai desain di `episodes/004-marcus-aurelius/character-design.md` bagian 0b.
 
 ## Dua mode gambar (lihat `master-style/visual-guide.md`)
 - **Mode Poster** (±90% adegan): tokoh kecil, dari belakang/samping, tanpa detail wajah. Tokoh harus dikenali dari **siluet dan satu warna pengenal**.

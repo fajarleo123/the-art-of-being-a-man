@@ -23,5 +23,5 @@ Proyek studio video storytelling sinematik. Pemilik proyek mengelola semuanya
 - Membuat gambar/video sebelum tahapnya disetujui.
 
 ## Contoh lengkap
-Episode 001 (`episodes/001-marcus-aurelius/` dan `voice-over/001-marcus-aurelius/`)
+Episode 004 — Marcus Aurelius (`episodes/004-marcus-aurelius/` dan `voice-over/004-marcus-aurelius/`)
 adalah acuan untuk format setiap dokumen.

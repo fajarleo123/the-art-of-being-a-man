@@ -1,7 +1,7 @@
 # Tahap 2 — Kerangka Naskah
 
 **Hasil:** `episodes/NNN-nama-tokoh/script-outline.md` (dari `templates/script-outline.md`).
-**Contoh lengkap:** `episodes/001-marcus-aurelius/script-outline.md`
+**Contoh lengkap:** `episodes/004-marcus-aurelius/script-outline.md`
 
 ## Langkah
 1. Tulis **logline** (2 kalimat) dan **pertanyaan utama**.
