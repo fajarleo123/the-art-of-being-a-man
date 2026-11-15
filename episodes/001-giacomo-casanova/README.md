@@ -1,6 +1,6 @@
 # Episode 001 — Giacomo Casanova
 
-> **Status:** 🟡 Brief (tahap 0) — menunggu persetujuan
+> **Status:** ✅ Brief disetujui · 🟡 Tahap 1 (riset) — menunggu persetujuan
 
 ## Ringkasan
 
@@ -64,8 +64,8 @@ Pria Tanpa Zaman menggulir layar ponsel di kamar gelap; banyak pesan, banyak ken
 
 ## Checklist Produksi
 
-- [ ] 0 · Brief ← **sekarang**
-- [ ] 1 · Riset → `research.md`
+- [x] 0 · Brief
+- [ ] 1 · Riset → `research.md` ← **sekarang**
 - [ ] 2 · Kerangka → `script-outline.md`
 - [ ] 3 · Naskah → `voice-over/001-giacomo-casanova/script.md`
 - [ ] 4 · Desain karakter → `character-design.md`
