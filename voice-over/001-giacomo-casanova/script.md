@@ -3,7 +3,7 @@
 > **Pria Paling Memikat di Eropa yang Akhirnya Sendirian**
 > *Pelajaran tentang Pesona dan Karakter*
 >
-> **Durasi:** ±5 menit (±550 kata ≈ 4:15 bicara + ±45 detik jeda & musik) · **Bahasa:** Indonesia · **Status:** 🟡 Draf 1 — menunggu persetujuan
+> **Durasi:** ±5 menit (±550 kata ≈ 4:15 bicara + ±45 detik jeda & musik) · **Bahasa:** Indonesia · **Status:** ✅ Disetujui (dikunci)
 > **Kerangka:** `episodes/001-giacomo-casanova/script-outline.md`
 > **Dasar fakta:** `episodes/001-giacomo-casanova/research.md`
 
