@@ -1,9 +1,10 @@
 # Kerangka Naskah — Episode 001: Giacomo Casanova
 
-> **Judul (usulan):** *Kenapa Tak Satu Pun Wanita Bertahan di Sisi Casanova*
+> **Judul:** *Pria Paling Memikat di Eropa yang Akhirnya Sendirian* ✅
 > **Subjudul:** *Pelajaran tentang Pesona dan Karakter*
+> **Teks thumbnail:** **"PESONA TAK CUKUP"** ✅
 > **Durasi target:** 5 menit (±640 kata, ±130 kata/menit)
-> **Status:** 🟡 Draf 1 — menunggu persetujuan
+> **Status:** ✅ Disetujui
 > **Dasar fakta:** `research.md` · **Arah channel:** `brand/pilar-pria-sejati.md`
 
 ---
@@ -263,12 +264,9 @@ yang kini **meletakkan ponselnya** dan berdiri menatap jendela. Buku ditutup →
 
 ## 6. Judul, Thumbnail & Deskripsi
 
-**Judul (pilih satu):**
-1. *Kenapa Tak Satu Pun Wanita Bertahan di Sisi Casanova*
-2. *Pria Paling Memikat di Eropa yang Akhirnya Sendirian*
-3. *Yang Tidak Pernah Dimiliki Casanova*
+**Judul:** *Pria Paling Memikat di Eropa yang Akhirnya Sendirian* ✅
 
-**Teks thumbnail (pilih satu):** **"TAK ADA YANG TINGGAL"** · **"PESONA TAK CUKUP"** · **"IA SENDIRIAN"**
+**Teks thumbnail:** **"PESONA TAK CUKUP"** ✅
 Visual: siluet Casanova tua di depan jendela berembun bertuliskan goresan; latar burgundy gelap.
 
 **Deskripsi (draf):** *Ia bisa memikat hampir siapa pun. Tapi tak satu pun bertahan. Kisah Giacomo Casanova, dan pelajaran untuk setiap pria tentang perbedaan antara pesona dan karakter.*

@@ -178,7 +178,7 @@ Ini **hanya usulan**; setiap tokoh tetap melalui tahap brief dan riset.
 
 | Episode | Tokoh | Pilar | Jenis | Sudut asmara | Status |
 |---|---|---|---|---|---|
-| **001** | **Giacomo Casanova** | Integritas | Peringatan | Pria paling memikat di Eropa yang akhirnya sendirian | 🟡 Tahap 2: kerangka |
+| **001** | **Giacomo Casanova** | Integritas | Peringatan | Pria paling memikat di Eropa yang akhirnya sendirian | 🟡 Tahap 3: naskah |
 | **002** | **B.J. Habibie & Ainun** | Kesetiaan & Cinta | Teladan | Pria yang mencintai satu wanita seumur hidupnya (kontras dengan Casanova) | ✅ Disetujui, belum dimulai |
 | **003** | **Henry VIII** | Kesetiaan & Cinta | Peringatan | Raja yang menikahi enam wanita, tapi tak pernah bisa setia pada satu pun (kontras langsung dengan Habibie di episode 002) | ✅ Disetujui, belum dimulai |
 | **004** | **Marcus Aurelius** | Kendali Diri | Teladan | Pria yang tetap tenang dan memberi rasa aman | 📄 Tahap 0–5 ada; ditulis ulang ke fokus baru |
