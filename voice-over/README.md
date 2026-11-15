@@ -6,9 +6,10 @@ Tempat naskah narasi dan file rekaman suara.
 
 ```
 voice-over/
-└── 001-marcus-aurelius/
+└── 004-marcus-aurelius/
     ├── script.md       ← Naskah narasi final
-    └── audio/          ← File rekaman (.wav / .mp3)
+    ├── naskah-bersih-ai.md  ← Teks siap tempel untuk suara AI (per bab)
+    └── audio/          ← File suara (.wav / .mp3), satu per bab
 ```
 
 ## Panduan Narasi
@@ -21,4 +22,4 @@ voice-over/
 ## Format Audio
 
 - WAV 48 kHz / 24-bit untuk master, MP3 untuk draf.
-- Nama file: `001-scene-01.wav`, `001-scene-02.wav`, dst.
+- Nama file: satu file per bab, mis. `001-bab-0-hook.wav`, `001-bab-1-judul.wav`, dst. (lihat `production-workflow/tahap/07-voice-over.md`)

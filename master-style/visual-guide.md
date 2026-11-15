@@ -1,70 +1,116 @@
 # Panduan Visual — The Art of Being a Man
 
-Dokumen ini adalah **acuan utama** untuk semua ilustrasi. Setiap gambar baru
-harus dicek terhadap aturan di sini sebelum dipakai.
+> **Versi 2 — Gaya Campuran** (menggantikan versi 1 "semi-realistis penuh")
+> Dokumen ini adalah **acuan utama** untuk semua gambar. Setiap gambar baru
+> harus dicek terhadap aturan di sini sebelum dipakai.
 
 ## 1. Identitas Gaya
 
-**Vintage Storybook + Dark Cinematic Animation**
+**Vintage Storybook Poster + Dark Cinematic**
 
-Bayangkan sebuah buku cerita Eropa abad ke-19 yang tiba-tiba "hidup":
-halaman kertas tua, ilustrasi tinta dan cat air, tetapi diterangi seperti
-adegan film yang gelap dan dramatis.
+Bayangkan halaman-halaman buku cerita klasik yang dicetak seperti poster
+tua: bentuk tegas, warna terbatas, tinta, butiran cetak, kertas yang menua,
+lalu diterangi seperti adegan film yang gelap dan sunyi.
 
-## 2. Gaya Karakter
+Channel memakai **dua mode gambar**:
 
-- **Semi-realistis**: proporsi tubuh manusia nyata, bukan kartun/chibi.
-- Wajah berkarakter: kerutan, bekas luka, janggut — menunjukkan pengalaman hidup.
-- Garis tinta tipis-sedang, sedikit tidak rata (seperti digambar tangan).
-- Ekspresi tenang dan dalam; hindari ekspresi berlebihan.
-- Pakaian akurat secara sejarah (lihat `character-library/`).
+| Mode | Porsi | Kapan dipakai | Ciri |
+|---|---|---|---|
+| **Mode Poster** *(utama)* | ±90% adegan | Hampir semua adegan | Tokoh **kecil**, dilihat **dari belakang/samping**, **wajah tidak terlihat**; lingkungan luas; bentuk datar dan tegas |
+| **Mode Close-up** | 2–4 adegan per episode | Momen emosional puncak | Wajah tokoh terlihat jelas, lebih detail dan semi-realistis, tetapi **palet, garis, dan tekstur tetap sama** dengan Mode Poster |
 
-## 3. Tekstur
+> **Kenapa campuran?** Tokoh tanpa wajah membuat gambar AI jauh lebih mudah
+> konsisten dan hemat. Close-up disimpan hanya untuk momen yang membutuhkan
+> emosi wajah.
 
-| Tekstur | Penggunaan |
-|---|---|
-| Watercolor (cat air) | Warna dasar, langit, kulit, kain — dengan bleed lembut di tepi |
-| Tinta (ink) | Garis luar, bayangan arsir (hatching), detail |
-| Kertas antik | Lapisan paling atas di setiap frame: serat kertas, noda, tepi kusam |
+## 2. Mode Poster (Utama)
 
-Aturan: **setiap frame harus terasa dicetak di atas kertas tua**, bukan layar digital.
+### Gaya
+- **Garis tinta tegas** dan percaya diri; arsiran tinta halus untuk bayangan.
+- **Bidang warna datar** (sedikit gradasi), **4–5 warna per gambar**.
+- **Butiran cetak** (*print grain*) dan tekstur kertas tua di seluruh gambar.
+- **Siluet kuat**: setiap tokoh harus dikenali dari bentuknya saja.
 
-## 4. Komposisi
+### Tokoh
+- Ukuran tokoh **kecil sampai sedang** (±10–30% tinggi gambar).
+- Dilihat **dari belakang, samping, atau sebagai siluet**. Wajah tidak digambar detail.
+- Tokoh dikenali dari **ciri siluet & warna** (lihat `character-design.md`):
+  Marcus = **jubah burgundy** + rambut ikal abu-abu; Cassius = **jubah merah karat** + kilau zirah perunggu; Pria Tanpa Zaman = **mantel panjang gelap**.
 
-- Gunakan **rule of thirds**; tokoh jarang di tengah persis kecuali momen penting.
-- Banyak **ruang negatif gelap** untuk kesan sunyi dan merenung.
-- **Vignette** (tepi gelap) di setiap frame.
-- Format utama: **16:9 (1920×1080)**. Versi pendek: 9:16 (1080×1920).
+### Komposisi
+- **Ruang negatif luas** (langit, kabut, dinding, air), untuk kesan sunyi dan merenung, sekaligus tempat teks.
+- **Satu aksen warna hangat** di setiap gambar (jubah burgundy, cahaya lampu, matahari emas) yang menarik mata.
+- Gunakan **rule of thirds**; tokoh jarang tepat di tengah.
+- Gambar dibuat **lebar dan kaya detail** agar bisa dipakai untuk beberapa adegan lewat zoom dan geser kamera (lihat `animation-rules.md`).
 
-## 5. Pencahayaan
+## 3. Mode Close-up
 
-- Sumber cahaya tunggal yang jelas: lilin, obor, api unggun, cahaya jendela, senja.
-- Kontras tinggi (chiaroscuro): wajah setengah terang, setengah bayangan.
-- Cahaya bernuansa **emas hangat**; bayangan bernuansa **burgundy/cokelat tua**.
-- Hindari cahaya putih datar atau warna neon.
+- Wajah **semi-realistis**: kerutan, mata, janggut terlihat; arsiran tinta untuk bayangan.
+- **Tetap** memakai garis tinta tegas, palet terbatas, dan butiran cetak seperti Mode Poster, agar tidak terasa seperti gambar dari film lain.
+- Cahaya dramatis satu sumber; wajah setengah terang, setengah gelap.
+- Maksimal **4 close-up per episode**.
 
-## 6. Pembagian Layer (untuk 2.5D)
+## 4. Pencahayaan (Kedua Mode)
 
-Setiap ilustrasi adegan dibuat terpisah per lapisan:
+- Sumber cahaya tunggal yang jelas: lilin, lampu minyak, obor, api, jendela, matahari terbit/terbenam.
+- Kontras tinggi: area gelap luas + satu area cahaya hangat.
+- Cahaya bernuansa **emas hangat**; bayangan bernuansa **biru malam, arang, atau burgundy tua**.
+- Hindari cahaya putih datar dan warna neon.
 
-1. `bg` — latar paling jauh (langit, gunung)
-2. `mid` — latar tengah (bangunan, pohon)
-3. `char` — karakter
-4. `fg` — latar depan (bingkai, daun, asap)
-5. `fx` — efek (debu, partikel, kabut)
+## 5. Format & Ukuran
 
-Format file: PNG transparan, minimal 2× resolusi akhir (3840×2160) agar
-bisa di-zoom tanpa pecah.
+- Video utama: **16:9 (1920×1080)**. Shorts: **9:16 (1080×1920)**.
+- Gambar AI dibuat **lanskap** (mis. 1536×1024 di ChatGPT), lalu dipotong ke 16:9.
+  → Letakkan unsur penting di **pita tengah** gambar agar aman saat dipotong.
+- Gambar yang akan di-zoom diperbesar (*upscale*) ke ±3840 px lebar sebelum dianimasikan.
 
-## 7. Yang Harus Dihindari
+## 6. Layer
 
-- ❌ Gaya anime, kartun 3D, atau foto-realistis
+- Mode Poster umumnya cukup **satu gambar utuh** (`full`). Gerak kamera, efek cuaca, cahaya, dan partikel ditambahkan dengan kode di Remotion.
+- Pemisahan layer (`bg`, `mid`, `char`, `fg`, `fx`) hanya untuk **adegan kunci** yang butuh efek parallax kuat.
+
+## 7. Yang Dibuat dengan Kode (Bukan Gambar AI)
+
+Untuk menghemat gambar, unsur berikut **selalu dibuat di Remotion**:
+- Kartu judul episode, judul bab, kartu kutipan, logo
+- Peta sederhana dengan tinta menyebar
+- Api, bara, abu, asap, salju, hujan, debu, kabut, kilat
+- Perubahan warna (mis. emas → karat), lampu padam, cahaya menguat/meredup
+- Tekstur kertas, butiran film, vignette
+
+## 8. Yang Harus Dihindari
+
+- ❌ Kartun anak-anak, chibi, anime, Pixar/3D
+- ❌ Tokoh fantasi: zirah emas berkilau, mahkota, efek sihir
+- ❌ Foto-realistis atau tampilan digital yang terlalu mulus
 - ❌ Warna cerah/jenuh (neon, biru elektrik, hijau terang)
-- ❌ Teks modern atau font sans-serif tipis di dalam gambar
-- ❌ Tampilan digital yang terlalu bersih/mulus
+- ❌ Teks/huruf di dalam gambar AI (teks selalu ditambahkan dengan kode)
+- ❌ Kekerasan grafis
 
-## 8. Tipografi (Judul & Teks Layar)
+## 9. Tipografi (Ditambahkan dengan Kode)
 
-- Judul: font serif klasik (contoh gratis: *Cinzel*, *Cormorant Garamond*).
-- Teks isi/kutipan: *EB Garamond* atau *Cormorant*.
-- Warna teks: krem atau emas antik di atas latar gelap.
+| Penggunaan | Font (gratis) | Warna |
+|---|---|---|
+| Judul episode & judul bab | *Cinzel* | Emas antik |
+| Kutipan & teks narasi di layar | *Cormorant Garamond* / *EB Garamond* | Krem kertas |
+| Keterangan kecil (tempat, tahun) | *Courier Prime* (gaya mesin tik) | Krem pudar |
+
+## 10. Blok Gaya untuk Prompt AI
+
+Tempel blok ini di awal setiap prompt. Versi lengkap yang sudah digabung per
+gambar ada di `image-prompts.md` setiap episode.
+
+**`[GAYA-POSTER]`**
+```
+Vintage mid-century storybook poster illustration, flat graphic shapes with bold confident ink outlines and fine ink hatching, limited muted color palette of deep burgundy, dark charcoal, faded midnight blue, warm cream and antique gold, subtle risograph print grain and aged paper texture, strong silhouettes, small figures seen from behind or in profile with no visible facial detail, vast atmospheric environment with large negative space, one dramatic warm light source, quiet melancholic cinematic mood, historically accurate details, wide landscape composition with the main subject in the central band.
+```
+
+**`[GAYA-CLOSEUP]`**
+```
+Close-up portrait in a vintage storybook poster illustration style, bold confident ink outlines and fine ink hatching for shadows, limited muted color palette of deep burgundy, dark charcoal, faded midnight blue, warm cream and antique gold, a detailed semi-realistic adult face with visible wrinkles and texture, subtle risograph print grain and aged paper texture, one dramatic warm light source with half the face in deep shadow, quiet cinematic mood, wide landscape composition.
+```
+
+**`[HINDARI]`** (tempel di akhir prompt; ChatGPT tidak punya kolom *negative prompt*)
+```
+Avoid: children's cartoon style, anime, chibi, 3D render, photorealistic photo, fantasy armor, crowns, glowing magic effects, neon or oversaturated colors, any text, letters, logos or watermarks, gore.
+```

@@ -1,4 +1,4 @@
-# Episode 001 — Marcus Aurelius
+# Episode 004 — Marcus Aurelius
 
 > Status: 🟡 **Konsep awal** (belum ada naskah)
 
@@ -29,7 +29,7 @@ Kemungkinan babak:
 ## Checklist Produksi
 
 - [ ] Riset sejarah & sumber kutipan
-- [ ] Naskah narasi (→ `voice-over/001-marcus-aurelius/`)
+- [ ] Naskah narasi (→ `voice-over/004-marcus-aurelius/`)
 - [ ] Lembar karakter (→ `character-library/marcus-aurelius.md`)
 - [ ] Storyboard / daftar adegan
 - [ ] Ilustrasi per layer
@@ -40,9 +40,9 @@ Kemungkinan babak:
 ## Isi Folder Ini (Nanti)
 
 ```
-001-marcus-aurelius/
+004-marcus-aurelius/
 ├── README.md        ← File ini (konsep & checklist)
 ├── research.md      ← Catatan riset & sumber
 ├── storyboard.md    ← Daftar adegan
-└── scenes/          ← Ilustrasi per adegan (per layer)
+└── images/          ← Gambar hasil AI (lihat image-prompts.md)
 ```
