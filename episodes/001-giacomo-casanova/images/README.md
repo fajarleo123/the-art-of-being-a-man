@@ -26,3 +26,9 @@ menyimpan di sini dengan nama sesuai `../image-prompts.md`.
 | P09 | `P09-ponsel-pintu-terbuka.png` | ✅ Disetujui (catatan) | Ponsel menampilkan panggilan masuk; pria pergi lewat lorong. ⚠️ Ada teks sangat kecil di atas layar ponsel; akan dikaburkan dengan kode |
 | P10 | `P10-atap-piombi.png` | ✅ Disetujui | Dua pria merayap di atap (satu berkemeja putih), kubah San Marco, laguna, bulan. Tokohnya lebih besar dari rencana, tetap bagus |
 | P11 | `P11-gondola-kabut.png` | ✅ Disetujui (catatan) | Gondola, pria berjubah, lentera, kabut tebal, bulan. ⚠️ Pendayung memakai topi jerami (*boater*) yang baru populer abad ke-19; detail kecil, diterima |
+| P03 | `P03-anak-di-jendela.png` | ✅ Disetujui | Anak di jendela, siluet nenek, perahu berdua menjauh di kanal berkabut. Sangat menyentuh |
+| P12 | `P12-tepi-thames.png` | ⚠️ Perlu keputusan | Casanova di tepi Thames, topi di tangan: bagus. ⚠️ **Anakronisme besar:** Menara Big Ben & Gedung Parlemen gotik baru dibangun ±1840–1870, padahal adegan ini tahun 1763 |
+| P13 | `P13-pintu-tertutup-london.png` | ✅ Disetujui | Tangan bercincin berlian & manset burgundy di pintu; siluet wanita bertopi menjauh; kubah St Paul (akurat untuk 1763) |
+| P18 | `P18-kastil-dux.png` | ✅ Disetujui | Kastil barok bersalju, satu jendela menyala |
+| C2 | `C2-closeup-casanova-tua.png` | ✅ Disetujui (catatan) | Wajah tua, hidung melengkung, rambut putih berpita, pena bulu, lilin. Senyumnya hangat-nostalgia (bukan getir berlinang); cocok dengan kutipan "mengingat kesenangan" |
+| P20 | `P20-pria-fajar-jendela.png` | ✅ Disetujui | Ponsel tertelungkup, pria berdiri tegak di jendela saat fajar. Kamar sedikit berbeda dari P01 tetapi suasananya menyambung |
