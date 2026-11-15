@@ -36,8 +36,8 @@ baru dimulai setelah pemilik proyek menyetujui.
 | 2 | **Kerangka** | `episodes/NNN-tokoh/script-outline.md` | [tahap/02-kerangka.md](tahap/02-kerangka.md) | [templates/script-outline.md](templates/script-outline.md) |
 | 3 | **Naskah narasi** | `voice-over/NNN-tokoh/script.md` | [tahap/03-naskah.md](tahap/03-naskah.md) | [templates/script.md](templates/script.md) |
 | 4 | **Desain karakter** | `episodes/NNN-tokoh/character-design.md` | [tahap/04-desain-karakter.md](tahap/04-desain-karakter.md) | [templates/character-design.md](templates/character-design.md) |
-| 5 | **Storyboard** | `episodes/NNN-tokoh/storyboard.md` | [tahap/05-storyboard.md](tahap/05-storyboard.md) | [templates/storyboard.md](templates/storyboard.md) |
-| 6 | **Gambar AI** | `episodes/NNN-tokoh/scenes/` | [tahap/06-gambar-ai.md](tahap/06-gambar-ai.md) | — |
+| 5 | **Storyboard + paket prompt** | `episodes/NNN-tokoh/storyboard.md` + `image-prompts.md` | [tahap/05-storyboard.md](tahap/05-storyboard.md) | [templates/storyboard.md](templates/storyboard.md) |
+| 6 | **Gambar AI** | `episodes/NNN-tokoh/images/` | [tahap/06-gambar-ai.md](tahap/06-gambar-ai.md) | — |
 | 7 | **Voice-over** | `voice-over/NNN-tokoh/audio/` | [tahap/07-voice-over.md](tahap/07-voice-over.md) | — |
 | 8 | **Animasi (Remotion)** | `remotion/` | [tahap/08-animasi-remotion.md](tahap/08-animasi-remotion.md) | — |
 | 9 | **Render & publikasi** | file MP4 + thumbnail + deskripsi | [tahap/09-render-publikasi.md](tahap/09-render-publikasi.md) | — |
@@ -85,7 +85,8 @@ Semua episode memakai kerangka yang sama. Yang berganti hanya tokoh, kisah, dan 
 | 7 | **Penutup** | ±45 dtk | Akhir hidup / warisan → ironi sejarah (jika ada) → kalimat pamungkas → kembali ke Pria Tanpa Zaman |
 
 **Hitungan dasar:** ±130 kata per menit → **±550–650 kata** narasi untuk 5 menit,
-**35–40 adegan** dengan rata-rata ±8 detik.
+**35–40 adegan** dengan rata-rata ±8 detik, memakai **±25–30 gambar AI**
+(gambar dipakai ulang untuk beberapa adegan; judul, kutipan, peta, dan efek dibuat dengan kode).
 
 ---
 
@@ -97,13 +98,13 @@ episodes/NNN-nama-tokoh/
 ├── research.md            ← Riset (tahap 1)
 ├── script-outline.md      ← Kerangka (tahap 2)
 ├── character-design.md    ← Desain karakter (tahap 4)
-├── storyboard.md          ← Storyboard (tahap 5)
-└── scenes/                ← Gambar (tahap 6)
-    ├── S01/
-    │   ├── S01-bg.png
-    │   ├── S01-char.png
-    │   └── S01-fx.png
-    └── S02/ ...
+├── storyboard.md          ← Storyboard: adegan → gambar (tahap 5)
+├── image-prompts.md       ← Paket prompt siap tempel (tahap 5)
+└── images/                ← Gambar hasil AI (tahap 6)
+    ├── R1-marcus-referensi.png
+    ├── P01-tebing-badai.png
+    ├── C1-closeup-duka.png
+    └── ...
 
 voice-over/NNN-nama-tokoh/
 ├── script.md              ← Naskah narasi (tahap 3)
@@ -118,8 +119,10 @@ voice-over/NNN-nama-tokoh/
 | Folder episode | `NNN-nama-tokoh` (huruf kecil, tanda hubung) | `002-miyamoto-musashi` |
 | Nomor adegan | `S` + 2 digit | `S07` |
 | Potongan dalam adegan | nomor adegan + huruf | `S02a`, `S02b` |
-| File gambar layer | `SNN-layer.png` (`bg`, `mid`, `char`, `fg`, `fx`) | `S07-bg.png` |
-| File gambar utuh | `SNN-full.png` | `S07-full.png` |
+| Gambar referensi tokoh | `R` + nomor + nama | `R1-marcus-referensi.png` |
+| Gambar Mode Poster | `P` + 2 digit + nama | `P09-tenda-menulis.png` |
+| Gambar Close-up | `C` + nomor + nama | `C1-closeup-duka.png` |
+| Layer (hanya adegan kunci) | kode gambar + layer | `P09-bg.png`, `P09-char.png` |
 | File audio | `NNN-scene-NN.wav` | `002-scene-07.wav` |
 | Karakter berulang | `character-library/nama-tokoh/` | `character-library/pria-tanpa-zaman/` |
 
@@ -141,7 +144,7 @@ voice-over/NNN-nama-tokoh/
 | Aset | Lokasi | Catatan |
 |---|---|---|
 | Gaya, gerak, warna | `master-style/` | Tidak berubah antar episode |
-| Blok `[GAYA]` & negative prompt | `episodes/001-marcus-aurelius/character-design.md` bagian 4 | Akan dipindah ke `master-style/` saat tahap gambar AI dibangun |
-| Pria Tanpa Zaman | `episodes/001-marcus-aurelius/character-design.md` bagian 3 | **Karakter tetap channel**; dipakai di hook & penutup setiap episode |
+| Blok `[GAYA-POSTER]`, `[GAYA-CLOSEUP]`, `[HINDARI]` | `master-style/visual-guide.md` bagian 10 | Dipakai di semua prompt |
+| Pria Tanpa Zaman | `episodes/001-marcus-aurelius/character-design.md` bagian 0b (`[POSTER PRIA]`) | **Karakter tetap channel**; dipakai di hook & penutup setiap episode |
 | Transisi halaman buku, kartu judul, kartu kutipan | `remotion/` | Dibangun sekali di tahap 8, dipakai ulang |
 | Musik tema, logo | `assets/` | Dibuat sekali |

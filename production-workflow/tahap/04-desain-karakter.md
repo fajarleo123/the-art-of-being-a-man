@@ -8,6 +8,10 @@
 - **Tokoh lawan/pendukung** yang muncul di peristiwa puncak (maksimal 1–2).
 - **Pria Tanpa Zaman** **tidak dibuat ulang**; pakai desain dari episode 001.
 
+## Dua mode gambar (lihat `master-style/visual-guide.md`)
+- **Mode Poster** (±90% adegan): tokoh kecil, dari belakang/samping, tanpa detail wajah. Tokoh harus dikenali dari **siluet dan satu warna pengenal**.
+- **Mode Close-up** (2–4 adegan): wajah semi-realistis untuk momen emosional puncak.
+
 ## Untuk setiap karakter, wajib ada
 1. Dasar sejarah (potret, patung, deskripsi sumber kuno; jika tidak ada, tulis "interpretasi").
 2. Wajah & ciri fisik.
@@ -15,7 +19,8 @@
 4. Palet warna, **hanya dari** `master-style/color-palette.md`.
 5. Ekspresi (tabel ekspresi → deskripsi → adegan) & bahasa tubuh.
 6. **Wajib konsisten** (5–6 poin).
-7. **Token karakter** (bahasa Inggris) + prompt lembar karakter, lembar ekspresi, dan adegan kunci.
+7. **Tabel ciri siluet** + **token poster** (`[POSTER NAMA]`) untuk Mode Poster.
+8. **Token lengkap** (detail wajah) hanya untuk tokoh yang mendapat close-up.
 
 ## Aturan tetap
 - Semi-realistis; **bukan** kartun anak, anime, atau fantasi.

@@ -1,7 +1,8 @@
 # Desain Karakter — Episode 001: Marcus Aurelius
 
-> **Status:** 🟡 Draf 1 — menunggu persetujuan
-> **Acuan gaya:** `master-style/visual-guide.md`, `master-style/color-palette.md`
+> **Status:** 🟡 Revisi 2 (gaya campuran) — menunggu persetujuan · Revisi 1 sudah ✅ disetujui
+> **Acuan gaya:** `master-style/visual-guide.md` (versi 2), `master-style/color-palette.md`
+> **Prompt siap tempel:** `image-prompts.md`
 > **Acuan fakta:** `research.md` · **Acuan adegan:** `script-outline.md`
 
 Dokumen ini adalah **pegangan tetap** untuk menggambar tiga karakter episode
@@ -13,8 +14,10 @@ milik karakter tersebut.
 ## 0. Aturan Umum untuk Semua Karakter
 
 ### Yang wajib
-- **Semi-realistis**: proporsi tubuh manusia nyata (±7,5 kepala), anatomi wajah dewasa, kerutan dan tekstur kulit terlihat.
-- **Gaya buku cerita Eropa abad ke-19**: garis tinta tangan yang sedikit tidak rata, sapuan cat air, tekstur kertas tua di seluruh gambar.
+- **Proporsi manusia nyata** (±7,5 kepala); tokoh dewasa, bukan kartun.
+- **Gaya campuran** (lihat `master-style/visual-guide.md`):
+  - **Mode Poster** (±90% adegan): tokoh kecil, dari belakang/samping, wajah tidak digambar detail, garis tinta tegas, warna datar terbatas, butiran cetak.
+  - **Mode Close-up** (3 adegan di episode ini): wajah semi-realistis, garis dan palet sama dengan Mode Poster.
 - **Cahaya dramatis**: satu sumber cahaya hangat (lilin, obor, api, senja). Wajah setengah terang, setengah gelap.
 - **Warna hanya dari palet resmi** (lihat tabel warna tiap karakter).
 
@@ -32,7 +35,40 @@ milik karakter tersebut.
 | Bentuk dasar | Lengkung lembut, vertikal | Sudut tajam, horizontal, lebar | Siluet sederhana, segitiga terbalik (pundak berat) |
 | Energi | Diam, menahan diri | Bergerak, mendorong ke depan | Gelisah, terhimpit |
 | Warna khas | Burgundy keunguan | Merah karat & perunggu | Hitam arang & cahaya tepi emas |
-| Wajah | Selalu terlihat, penuh emosi | Terlihat, tegas | **Tidak pernah terlihat** |
+| Wajah | Hanya di 3 close-up; selebihnya dari belakang/samping | Tidak pernah close-up; dikenali dari siluet | **Tidak pernah terlihat** |
+
+---
+
+## 0b. Revisi 2: Ciri Siluet untuk Mode Poster
+
+Karena di Mode Poster wajah tidak terlihat, setiap tokoh **harus dikenali dari
+siluet dan warnanya saja**, bahkan saat ukurannya kecil di gambar.
+
+| Tokoh | Ciri siluet (wajib) | Warna pengenal |
+|---|---|---|
+| **Marcus** | Tubuh ramping, bahu sedikit membungkuk, **rambut ikal tebal abu-abu**, **jubah panjang** yang jatuh lurus sampai betis, disematkan di bahu kanan | **Burgundy Gelap** `#4A0E1A`: satu-satunya merah tua yang menonjol di gambar |
+| **Cassius** | Tinggi, **bahu lebar**, **kaki terbuka lebar**, kilau **zirah dada perunggu**, rumbai kulit di pinggang, pedang di pinggul kiri, jubah di bahu kiri | **Merah Karat** `#7A2E1C` + kilau Emas Redup |
+| **Pria Tanpa Zaman** | Rata-rata, bahu membungkuk, **mantel panjang gelap** berkerah berdiri | Hitam Arang + **cahaya tepi Emas Antik** |
+
+### Token siluet (untuk Mode Poster)
+
+Pakai token ini di prompt Mode Poster. Token lengkap (detail wajah) di bagian
+masing-masing tokoh hanya untuk **Mode Close-up**.
+
+**`[POSTER MARCUS]`**
+```
+Marcus Aurelius as a small figure seen from behind or in profile, a slender slightly stooped Roman man in his fifties with thick curly grey hair, wearing a long deep burgundy Roman military cloak falling to his calves and pinned at the right shoulder, over a cream long-sleeved wool tunic, dark trousers and leather boots, no crown, no weapon, his burgundy cloak is the only deep red accent in the image
+```
+
+**`[POSTER CASSIUS]`**
+```
+Avidius Cassius as a figure seen from a low angle and partly from behind, a tall broad-shouldered Roman general with short black hair, wearing a dull bronze muscle cuirass with dark leather strips at the shoulders and waist, a cream knotted sash at the waist, a rust-red cloak pinned at the left shoulder, a short sword at his left hip, wide confident stance, no helmet
+```
+
+**`[POSTER PRIA]`**
+```
+an anonymous modern man seen only from behind or as a silhouette, face never visible, average build, short hair, slightly hunched shoulders, wearing a long dark knee-length wool overcoat with a raised collar, dark trousers and simple boots, no logos or accessories, thin antique gold rim light along his outline
+```
 
 ---
 
@@ -126,7 +162,9 @@ jubah militer, **tanpa senjata dan tanpa zirah**.
 5. Tanpa mahkota; tanpa pedang (kecuali pengecualian di atas).
 6. Kadar uban sesuai varian usia adegan.
 
-### 🎨 Prompt AI — Marcus Aurelius
+### 🎨 Prompt AI — Marcus Aurelius (Mode Close-up)
+
+> Revisi 2: bagian ini dipakai hanya untuk **3 close-up** wajah Marcus. Ganti `[GAYA]` dengan `[GAYA-CLOSEUP]`. Prompt final ada di `image-prompts.md`.
 
 **Token karakter** *(tempel di setiap prompt Marcus agar konsisten)*:
 ```
@@ -204,7 +242,7 @@ interpretasi kita. Pakaiannya mengikuti standar perwira tinggi Romawi abad ke-2.
 
 | Elemen | Warna | HEX |
 |---|---|---|
-| Jubah & tunik | Merah karat: Burgundy Gelap dicampur Cokelat Kulit (lebih jingga/kemerahan daripada jubah Marcus) | `#4A0E1A` + `#5C3A21` |
+| Jubah & tunik | Merah Karat (lebih jingga/kemerahan daripada jubah Marcus) | `#7A2E1C` |
 | Zirah | Perunggu kusam: Emas Redup dengan bayangan Cokelat Tinta | `#8A6D3B` / `#2E1F14` |
 | *Pteruges*, sabuk, sepatu | Cokelat Kulit | `#5C3A21` |
 | *Cincticulus* | Krem Pudar | `#C9B79C` |
@@ -234,7 +272,9 @@ interpretasi kita. Pakaiannya mengikuti standar perwira tinggi Romawi abad ke-2.
 5. Selempang krem diikat di perut + pedang di pinggang kiri.
 6. Tidak pernah memakai helm berjambul besar; tidak pernah menyeringai jahat.
 
-### 🎨 Prompt AI — Avidius Cassius
+### 🎨 Prompt AI — Avidius Cassius (arsip Revisi 1)
+
+> Revisi 2: Cassius **tidak memiliki close-up** di episode ini. Gunakan `[POSTER CASSIUS]`. Token di bawah tetap menjadi acuan detail pakaian.
 
 **Token karakter:**
 ```
@@ -305,7 +345,9 @@ karena itu ia **tidak boleh punya identitas**.
 5. Bentuk tubuh rata-rata, bahu membungkuk (kecuali adegan penutup).
 6. Tetap dalam gaya tinta + cat air + kertas tua.
 
-### 🎨 Prompt AI — Pria Tanpa Zaman
+### 🎨 Prompt AI — Pria Tanpa Zaman (arsip Revisi 1)
+
+> Revisi 2: gunakan `[POSTER PRIA]` dan `[GAYA-POSTER]`. Prompt final ada di `image-prompts.md`.
 
 **Token karakter:**
 ```
@@ -338,28 +380,26 @@ an anonymous modern man seen only as a silhouette, face never visible, average b
 
 ---
 
-## 4. Blok Gaya & Negative Prompt (Pakai di Semua Prompt)
+## 4. Blok Gaya (Revisi 2)
 
-**[GAYA]**: ganti `[GAYA]` di setiap prompt dengan teks ini:
-```
-Vintage European storybook illustration, semi-realistic, hand-drawn ink linework with loose watercolor washes on aged textured parchment paper, 19th-century classic book illustration style, dark cinematic lighting, strong chiaroscuro, single warm light source, deep shadows, muted palette of dark burgundy, sepia brown, cream and antique gold, subtle paper grain and stains, soft vignette, mature somber mood, historically accurate,
-```
+Blok gaya kini disimpan di **`master-style/visual-guide.md` bagian 10** agar
+dipakai semua episode:
+- `[GAYA-POSTER]` untuk Mode Poster
+- `[GAYA-CLOSEUP]` untuk Mode Close-up
+- `[HINDARI]` ditempel di akhir prompt (pengganti *negative prompt*, karena ChatGPT tidak punya kolom itu)
 
-**Negative prompt** (jika alat AI menyediakan kolom ini):
-```
-cartoon, anime, chibi, childish, kids illustration, Pixar, Disney, 3D render, CGI, photorealistic photograph, fantasy armor, shiny gold armor, crown, horned helmet, glowing magic effects, neon colors, oversaturated colors, clean digital look, plastic skin, modern logos, text, watermark, signature, extra fingers, deformed hands, gore, blood
-```
+Blok `[GAYA]` lama (semi-realistis cat air) **tidak dipakai lagi**.
 
 ---
 
-## 5. Tips Menjaga Konsistensi
+## 5. Tips Menjaga Konsistensi (ChatGPT)
 
-1. **Mulai dari lembar karakter (turnaround).** Pilih satu hasil terbaik untuk tiap karakter, lalu jadikan **gambar referensi** untuk semua adegan berikutnya (kebanyakan alat AI punya fitur "image reference" atau "character reference").
-2. **Selalu tempel token karakter utuh.** Jangan diringkas atau diubah urutannya.
-3. **Catat seed/nomor acak** dari gambar yang berhasil, jika alat AI menampilkannya.
-4. **Rasio:** 16:9 untuk video utama; 9:16 untuk Shorts.
-5. **Simpan hasil terpilih** di `character-library/<nama-tokoh>/` (dilakukan nanti, saat tahap pembuatan gambar disetujui).
-6. **Cek setiap gambar** terhadap daftar "Wajib Konsisten". Jika satu poin gagal, buat ulang.
+1. **Mulai dari gambar referensi.** Buat R1 (Marcus) dan R2 (Cassius) dulu, sesuai urutan di `image-prompts.md`.
+2. **Lampirkan gambar referensi** setiap kali membuat adegan yang memuat tokoh itu, lalu tulis: *"Use the attached image as the character reference."*
+3. **Tempel prompt utuh** dari `image-prompts.md`; jangan diringkas.
+4. Untuk close-up, lampirkan **C1** (close-up pertama yang disetujui) sebagai referensi wajah C2 dan C3.
+5. **Cek setiap gambar** terhadap tabel ciri siluet (bagian 0b) dan "Wajib Konsisten". Jika gagal, minta ChatGPT memperbaiki bagian itu saja (mis. *"make the cloak deep burgundy, not bright red"*).
+6. **Simpan hasil terpilih** sesuai nama file di `image-prompts.md`.
 
 ---
 

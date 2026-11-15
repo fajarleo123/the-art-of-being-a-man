@@ -10,10 +10,11 @@ dan satu pelajaran yang bisa diterapkan pria masa kini.
 
 ## Gaya Visual (Ringkas)
 
-**Vintage Storybook + Dark Cinematic Animation**
+**Vintage Storybook Poster + Dark Cinematic** (gaya campuran)
 
-- Ilustrasi semi-realistis bergaya buku cerita klasik Eropa
-- Tekstur watercolor, tinta, dan kertas antik
+- Mode Poster: ilustrasi poster vintage, tokoh kecil dari belakang tanpa detail wajah
+- Mode Close-up: 2–4 wajah semi-realistis per episode untuk momen emosional
+- Garis tinta tegas, butiran cetak, dan kertas antik
 - Warna burgundy gelap, cokelat, krem, dan emas antik
 - Animasi 2.5D parallax, kamera bergerak perlahan, cahaya dramatis
 

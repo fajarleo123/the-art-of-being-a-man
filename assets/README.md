@@ -6,7 +6,7 @@ Bahan yang dipakai **bersama** oleh banyak episode.
 
 ```
 assets/
-├── textures/   ← Tekstur kertas tua, watercolor, noda tinta
+├── textures/   ← Tekstur kertas tua, butiran cetak, noda tinta
 ├── overlays/   ← Film grain, debu, vignette, kebocoran cahaya
 ├── music/      ← Musik latar
 ├── sfx/        ← Efek suara (angin, api, langkah kaki)

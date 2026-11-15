@@ -3,7 +3,7 @@
 > **Status:** 🟡 Draf — menunggu persetujuan
 > **Acuan:** `master-style/` · `research.md` · `script-outline.md`
 > **Pria Tanpa Zaman:** pakai desain tetap di `episodes/001-marcus-aurelius/character-design.md` bagian 3.
-> **Blok [GAYA] & negative prompt:** `episodes/001-marcus-aurelius/character-design.md` bagian 4.
+> **Blok gaya:** `master-style/visual-guide.md` bagian 10 (`[GAYA-POSTER]`, `[GAYA-CLOSEUP]`, `[HINDARI]`).
 
 ## 0. Kontras Desain
 | | <Tokoh utama> | <Tokoh lawan/pendukung> | Pria Tanpa Zaman |
@@ -48,22 +48,24 @@
 ### ✅ Wajib konsisten
 1. 
 
-### 🎨 Prompt AI
-**Token karakter:**
+### Ciri siluet (Mode Poster)
+| Ciri siluet (wajib) | Warna pengenal |
+|---|---|
+| | |
+
+**Token poster `[POSTER NAMA]`:**
+```
+<English: small figure seen from behind/profile, silhouette features, costume, signature color>
+```
+
+### 🎨 Prompt AI (Mode Close-up, hanya jika tokoh mendapat close-up)
+**Token lengkap:**
 ```
 <English character description>
 ```
-**Lembar karakter:**
+**Referensi (Mode Poster):**
 ```
-[GAYA] Character turnaround sheet of [TOKEN], three views: front, three-quarter, and profile, ...
-```
-**Lembar ekspresi:**
-```
-[GAYA] Expression sheet of [TOKEN], ...
-```
-**Adegan kunci:**
-```
-[GAYA] [TOKEN], ...
+[GAYA-POSTER] Character reference sheet on a plain aged cream paper background: three full-body views ... [POSTER NAMA] ... [HINDARI]
 ```
 
 ---

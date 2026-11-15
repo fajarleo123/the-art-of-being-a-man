@@ -44,5 +44,5 @@ Kemungkinan babak:
 ├── README.md        ← File ini (konsep & checklist)
 ├── research.md      ← Catatan riset & sumber
 ├── storyboard.md    ← Daftar adegan
-└── scenes/          ← Ilustrasi per adegan (per layer)
+└── images/          ← Gambar hasil AI (lihat image-prompts.md)
 ```

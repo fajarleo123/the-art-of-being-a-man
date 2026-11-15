@@ -33,7 +33,7 @@
 - [ ] 3 · Naskah → `voice-over/NNN-nama-tokoh/script.md`
 - [ ] 4 · Desain karakter → `character-design.md`
 - [ ] 5 · Storyboard → `storyboard.md`
-- [ ] 6 · Gambar AI → `scenes/`
+- [ ] 6 · Gambar AI → `images/` (prompt: `image-prompts.md`)
 - [ ] 7 · Voice-over → `voice-over/NNN-nama-tokoh/audio/`
 - [ ] 8 · Animasi → `remotion/`
 - [ ] 9 · Render & publikasi

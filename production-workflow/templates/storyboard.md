@@ -3,20 +3,16 @@
 > **<Judul>** — *<Subjudul>*
 >
 > **Status:** 🟡 Draf — menunggu persetujuan
-> **Durasi:** 5:00 · **Adegan:** <35–40> · **Rasio:** 16:9 · **30 fps**
+> **Durasi:** 5:00 · **Adegan:** <35–40> · **Gambar AI:** <±25–30> · **Rasio:** 16:9 · **30 fps**
+> **Prompt:** `image-prompts.md`
 
-## Kamus Prompt
-| Kode | Isi |
-|---|---|
-| `[GAYA]` | Blok gaya standar |
-| `[TOKEN …]` | Dari `character-design.md` |
-| `[NEG]` | Negative prompt standar |
-
-### Lokasi Tetap
-| Kode | Lokasi | Deskripsi prompt |
+## Peta Pemakaian Gambar
+| Gambar | Adegan | Kali dipakai |
 |---|---|---|
-| `[LOK-TEBING]` | Tebing (hook & penutup) | *a rocky cliff edge above a dark sea, vast open sky* |
-| `[LOK-…]` | | |
+| R1 … | | |
+| P01 … | | |
+| C1 … | | |
+| **KODE** | | — |
 
 ### Motif Berulang
 | Motif | Muncul di | Makna |
@@ -31,23 +27,16 @@
 
 ### S01 · 0:00–0:0X · X dtk
 **Narasi:** "<salin persis dari naskah>"
+**Gambar:** <kode gambar> (<potongan>) / KODE
 **Visual:** 
-**Prompt:**
-```
-[GAYA] ...
-```
 **Kamera:** 
-**Animasi:** `bg` · `mid` · `char` · `fg` · `fx`
+**Efek kode:** 
 **Audio:** 
 **→** <transisi>
 
 <ulangi untuk setiap adegan>
 
 ---
-
-## Daftar Gambar yang Dibutuhkan
-| Jenis | Jumlah | Catatan |
-|---|---|---|
 
 ## Daftar Teks di Layar
 | Adegan | Teks | Font |
